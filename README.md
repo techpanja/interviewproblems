@@ -1,2 +1,4 @@
 interviewproblems
 =================
+
+A COMPILATION OF COMMON INTERVIEW QUESTIONS AND SOLUTIONS.
