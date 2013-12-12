@@ -24,12 +24,13 @@ public class TestCartesianOfLists {
         List<String> childList3 = new ArrayList<String>();
         childList3.add("f");
         childList3.add("g");
+        childList3.add("h");
         List<List> parentList = new ArrayList<List>();
         parentList.add(childList1);
         parentList.add(childList2);
         parentList.add(childList3);
 //        List<List> output = CartesianOfLists.getCartesianOfLists(parentList);
-        List<List> output = CartesianOfLists.getCartesianOfListsRecursion(parentList);
+        List<List> output = CartesianOfLists.getCartesianOfLists(parentList);
         for (List<String> list : output) {
             for (String str : list) {
                 System.out.print(str + " ");
