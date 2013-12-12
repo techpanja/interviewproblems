@@ -1,5 +1,6 @@
 out
 /.idea
+.idea
 /*.iml
 /.project
 /.settings
