@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86e68834-6d28-4580-928d-3baa9c6cfa05" name="Default" comment="" />
+    <list default="true" id="86e68834-6d28-4580-928d-3baa9c6cfa05" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="InterviewProblems.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/src/arrays/src/allevennumberstoleft/AllEvensToLeftandOddsToRight.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1382996519441" ignored="false" />
@@ -36,7 +40,7 @@
     <file path="/LinkedList.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383092088536" ignored="false" />
     <file path="/fragment.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386739164396" ignored="false" />
     <file path="/LinkedListImpl.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383094159571" ignored="false" />
-    <file path="/Dummy.txt" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386739485220" ignored="false" />
+    <file path="/Dummy.txt" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386799336249" ignored="false" />
     <file path="/TestLinkedList.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383093962457" ignored="false" />
     <file path="$USER_HOME$/Perforce/rpanjrath-workspace-linux2/MorganBroker/main/src/test/java/com/citrix/device/service/DeviceServiceTest_GetDeviceByFilterTest.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383593613299" ignored="false" />
     <file path="$USER_HOME$/Perforce/rpanjrath-workspace-linux2/MorganBroker/main/src/main/java/com/citrix/g2ars/account/impl/AccountServiceImpl.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383593613299" ignored="false" />
@@ -44,7 +48,7 @@
     <file path="$USER_HOME$/Perforce/rpanjrath-workspace-linux2/MorganBroker/main/src/test/java/com/citrix/device/service/DeviceServiceTest.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383593613299" ignored="false" />
     <file path="$USER_HOME$/Perforce/rpanjrath-workspace-linux2/MorganBroker/main/src/main/resources/morgan-spring.xml" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383593613299" ignored="false" />
     <file path="/ReverseString.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383603681890" ignored="false" />
-    <file path="/Test.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386026115692" ignored="false" />
+    <file path="/Test.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386793093003" ignored="false" />
     <file path="$USER_HOME$/Perforce/rpanjrath-workspace-linux2/MorganBroker/main/src/test/java/com/citrix/g2ars/api/web/SystemLinksApiControllerIT.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383603747102" ignored="false" />
     <file path="/SystemLinksApiControllerIT.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383603747102" ignored="false" />
     <file path="/FindMaxSubArray.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1383616317986" ignored="false" />
@@ -72,7 +76,7 @@
     <file path="$USER_HOME$/git/rnr/src/main/java/com/citrix/rnr/account/impl/AccountServiceImpl.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386707733794" ignored="false" />
     <file path="/AccountServiceImpl.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386115483373" ignored="false" />
     <file path="$USER_HOME$/git/rnr/src/main/java/com/citrix/rnr/account/AccountService.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386362446267" ignored="false" />
-    <file path="$USER_HOME$/git/rnr/src/main/webapp/WEB-INF/jsp/index.jsp" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386027198396" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/WEB-INF/jsp/index.jsp" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386798764143" ignored="false" />
     <file path="/AccountService.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386115478926" ignored="false" />
     <file path="/AccountServiceUrls.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386020983133" ignored="false" />
     <file path="$USER_HOME$/git/rnr/src/main/java/com/citrix/rnr/account/AccountServiceUrls.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386188773909" ignored="false" />
@@ -181,11 +185,22 @@
     <file path="/DuplicatesCountInSortedArray.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386743299883" ignored="false" />
     <file path="$USER_HOME$/git/rnr/src/main/webapp/js/lib/angular.min.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386740828661" ignored="false" />
     <file path="$USER_HOME$/git/angular-phonecat/app/js/app.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386742041389" ignored="false" />
-    <file path="/app.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386741691079" ignored="false" />
+    <file path="/app.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386800937392" ignored="false" />
     <file path="$USER_HOME$/git/angular-phonecat/app/js/controllers.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386742041389" ignored="false" />
     <file path="$USER_HOME$/git/angular-phonecat/app/partials/phone-detail.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386742041389" ignored="false" />
     <file path="$USER_HOME$/git/angular-phonecat/app/index.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386742277140" ignored="false" />
     <file path="/index.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386742262953" ignored="false" />
+    <file path="/MyFindArray.java" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386794625783" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/js/app.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386800976541" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/js/controllers/userSettingsController.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386799874127" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/partials/home.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386800607695" ignored="false" />
+    <file path="/home.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386800607695" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/partials/account.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386801326855" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/js/controllers/accountSettingsController.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386803554508" ignored="false" />
+    <file path="/accountSettingsController.js" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386803527249" ignored="false" />
+    <file path="/account.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386801326855" ignored="false" />
+    <file path="$USER_HOME$/git/rnr/src/main/webapp/settings.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386801841392" ignored="false" />
+    <file path="/settings.html" changelist="86e68834-6d28-4580-928d-3baa9c6cfa05" time="1386801840566" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,10 +497,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintNaryTreeWithLevels.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PrintNaryTreeWithLevels.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/treeproblems/PrintNaryTreeWithLevels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="15" selection-start="2724" selection-end="2724" vertical-scroll-proportion="1.6773163">
+            <state line="71" column="14" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#2919#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1122#1130#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arrays/findarray/FindArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFindArray.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/findarray/MyFindArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="6" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.6430868">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingletonUsingStatic.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/objects/singleton/SingletonUsingStatic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -507,15 +553,17 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/strings/stringsubsequencecheck/CheckStringSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/threads/simulatedeadlock/DeadLockOreilly.java" />
-        <option value="$PROJECT_DIR$/src/strings/printdiamonds/TestDiamonds.java" />
-        <option value="$PROJECT_DIR$/src/strings/printdiamonds/PrintDiamonds.java" />
-        <option value="$PROJECT_DIR$/src/customiterator/AnimalIterator.java" />
-        <option value="$PROJECT_DIR$/src/strings/stringsubsequencecheck/TestSubsequence.java" />
         <option value="$PROJECT_DIR$/src/strings/minimumsubstringcontains/MinimumSubstring.java" />
         <option value="$PROJECT_DIR$/src/numberproblems/factorial/FactorialNoOfTrailingZeroes.java" />
         <option value="$PROJECT_DIR$/src/numberproblems/factorial/Factorial.java" />
@@ -526,15 +574,24 @@
         <option value="$PROJECT_DIR$/src/trees/treeproblems/PrintNaryTreeWithLevels.java" />
         <option value="$PROJECT_DIR$/src/trees/treeproblems/LeftViewOfATree.java" />
         <option value="$PROJECT_DIR$/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/Gingleton.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/findarray/FindArray.java" />
+        <option value="$PROJECT_DIR$/src/findarray/MyFindArray.java" />
+        <option value="$PROJECT_DIR$/src/arrays/findarray/MyFindArray.java" />
+        <option value="$PROJECT_DIR$/src/iteration/MyFolder.java" />
       </list>
     </option>
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="USE_PERFORCE_JOBS" value="true" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -560,6 +617,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -591,431 +649,62 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="treeproblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trees" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="threads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stackqueues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sorting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="objects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numberproblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numberproblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="breadthfirstsearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="numberfrequency" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arrays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="findduplicatecountsortedarray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="258" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="260" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Perforce" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="259" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloning-1.9.0.jar!/" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="269" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1059" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1057" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="265" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="261" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/iteration" />
       <recent name="$PROJECT_DIR$/src/trees" />
       <recent name="$PROJECT_DIR$/src/threads" />
       <recent name="$PROJECT_DIR$/src/strings" />
       <recent name="$PROJECT_DIR$/src/stackqueues" />
-      <recent name="$PROJECT_DIR$/src/sorting" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="objects.cloning.linkedlistcloning" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicatesCountInSortedArray">
-    <configuration default="false" name="Factorial" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="numberproblems.factorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="numberproblems.factorial.Factorial" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InterviewProblems" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BFS" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="graphs.breadthfirstsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="graphs.breadthfirstsearch.BFS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InterviewProblems" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MyFindArray">
     <configuration default="false" name="PrintNaryTreeWithLevels" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1088,6 +777,45 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InterviewProblems" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyFindArray" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arrays.findarray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="arrays.findarray.MyFindArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="InterviewProblems" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1146,19 +874,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BFS" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PrintNaryTreeWithLevels" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LeftViewOfATree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DuplicatesCountInSortedArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PrintNaryTreeWithLevels" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LeftViewOfATree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DuplicatesCountInSortedArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyFindArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DuplicatesCountInSortedArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LeftViewOfATree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrintNaryTreeWithLevels" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BFS" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyFindArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DuplicatesCountInSortedArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LeftViewOfATree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrintNaryTreeWithLevels" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1196,29 +924,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4938838" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259861" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32621083" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24230146" sideWeight="0.47247708" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5275229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24226254" sideWeight="0.6723769" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5267666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32830626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1289,62 +1017,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/graphs/test/TestDG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="44" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/graph/AbstractGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="19" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/graph/DirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="9" selection-start="978" selection-end="1233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/graph/UnDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="14" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/breadthfirstsearch/BFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="729" selection-end="1960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/treeproblems/CheckSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/treeproblems/DiameterOfTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/graph/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
@@ -1376,13 +1048,6 @@
         <state line="17" column="33" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="68" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/numberfrequency/PrintNumbersWithFrequency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="82" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.0">
@@ -1390,9 +1055,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="68" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/treeproblems/PrintNaryTreeWithLevels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="15" selection-start="2724" selection-end="2724" vertical-scroll-proportion="1.6773163">
+        <state line="71" column="14" selection-start="2267" selection-end="2267" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#2919#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1122#1130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/objects/singleton/SingletonUsingStatic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/findarray/FindArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/findarray/MyFindArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="6" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.6430868">
           <folding />
         </state>
       </provider>
