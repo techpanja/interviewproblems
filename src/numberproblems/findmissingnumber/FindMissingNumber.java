@@ -14,7 +14,7 @@ public class FindMissingNumber {
     }
 
     // does not work for zero.
-    public static int findMissingNumber(int[] inputArray) {
+    public static int findMissingNumberUsingXOR(int[] inputArray) {
         int xor1 = 1;
         int xor2 = inputArray[0];
         int length = inputArray.length;
