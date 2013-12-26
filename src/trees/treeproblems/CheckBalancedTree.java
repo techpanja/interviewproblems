@@ -29,22 +29,22 @@ public class CheckBalancedTree {
         return maxDepth - minDepth <= 1;
     }
 
-    private static int maxDepth(SearchNode rootNode) {
-        if (rootNode == null) {
+    private static int maxDepth(SearchNode currentNode) {
+        if (currentNode == null) {
             return 0;
         }
-        int maxLeft = maxDepth((SearchNode) rootNode.getLeftChild());
-        int maxRight = maxDepth((SearchNode) rootNode.getRightChild());
+        int maxLeft = maxDepth((SearchNode) currentNode.getLeftChild());
+        int maxRight = maxDepth((SearchNode) currentNode.getRightChild());
         int max = Math.max(maxLeft, maxRight);
         return 1 + max;
     }
 
-    private static int minDepth(SearchNode rootNode) {
-        if (rootNode == null) {
+    private static int minDepth(SearchNode currentNode) {
+        if (currentNode == null) {
             return 0;
         }
-        int minLeft = minDepth((SearchNode) rootNode.getLeftChild());
-        int minRight = minDepth((SearchNode) rootNode.getRightChild());
+        int minLeft = minDepth((SearchNode) currentNode.getLeftChild());
+        int minRight = minDepth((SearchNode) currentNode.getRightChild());
         int min = Math.min(minLeft, minRight);
         return 1 + min;
     }
