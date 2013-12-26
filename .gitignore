@@ -6,3 +6,6 @@ out
 /.settings
 .DS_Store
 *.iml
+InterviewProblems.iml
+.idea/workspace.xml
+.idea/misc.xml
