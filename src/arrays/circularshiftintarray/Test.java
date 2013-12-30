@@ -10,6 +10,6 @@ public class Test {
 
     public static void main(String[] args) {
         int[] input = new int[]{4, 5, 6, 7};
-        CircularShiftArray.circularShiftToRightInPlace(input, 14);
+        CircularShiftArray.circularShiftToLeft(input, 10);
     }
 }

@@ -25,7 +25,34 @@ public class CircularShiftArray {
             int i = 0;
             int[] outputArray = new int[inputArray.length];
             while (i < inputArray.length) {
-                int k = (shiftSize + i) % inputArray.length;
+                int k = (i + shiftSize) % inputArray.length;
+                outputArray[k] = inputArray[i];
+                i++;
+            }
+            System.out.println("After shift:--");
+            for (int temp : outputArray) {
+                System.out.println(temp);
+            }
+        }
+    }
+
+    public static void circularShiftToLeft(int[] inputArray, int shiftSize) {
+        if (inputArray.length <= 1) {
+            System.out.println("Array must have more than one integer.");
+
+        } else {
+            System.out.println("Before shift:--");
+            for (int temp : inputArray) {
+                System.out.println(temp);
+            }
+            int i = 0;
+            shiftSize = shiftSize % inputArray.length;
+            int[] outputArray = new int[inputArray.length];
+            while (i < inputArray.length) {
+                int k = i - shiftSize;
+                if (k < 0) {
+                    k = k + inputArray.length;
+                }
                 outputArray[k] = inputArray[i];
                 i++;
             }
