@@ -1,7 +1,7 @@
 package arrays.allevennumberstoleft;
 
 /**
- * Given +ve numbers in an array.Put the even #s to the left of the array and
+ * Given +ve numbers in an array. Put the even #s to the left of the array and
  * the odd to the right side of the array . Don't use extra array.
  * <p/>
  * User: rpanjrath
