@@ -4,7 +4,7 @@ import numberproblems.swapnumbers.SwapNumbers;
 
 /**
  * Test class for swapping.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/28/13
  * Time: 1:11 PM
  * To change this template use File | Settings | File Templates.

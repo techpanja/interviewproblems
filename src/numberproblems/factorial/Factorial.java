@@ -3,7 +3,7 @@ package numberproblems.factorial;
 /**
  * Find factorial of a given number.
  * e.g. 3! = 3 * 2 * 1
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 12/5/13
  * Time: 2:01 PM
  * To change this template use File | Settings | File Templates.

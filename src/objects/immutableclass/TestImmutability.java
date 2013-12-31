@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Test class for ImmutableClass
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/22/13
  * Time: 4:35 PM
  * To change this template use File | Settings | File Templates.
@@ -15,7 +15,7 @@ public class TestImmutability {
     public static void main(String[] args) {
         List list = new ArrayList();
         list.add("abc");
-        ImmutableClass immutableClass = new ImmutableClass(5, "rahul", list);
+        ImmutableClass immutableClass = new ImmutableClass(5, "r", list);
         List<String> list1 = immutableClass.getList();
         list1.add("def");
         List<String> list2 = immutableClass.getList();

@@ -16,7 +16,7 @@ import java.util.Queue;
  * <p/>
  * Rule 3: If you can’t carry out Rule 2 because the queue is empty, you’re done.
  * <p/>
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 12/8/13
  * Time: 12:35 PM
  * To change this template use File | Settings | File Templates.

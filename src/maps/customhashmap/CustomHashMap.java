@@ -2,7 +2,7 @@ package maps.customhashmap;
 
 /**
  * Implement own hashmap.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 9/22/13
  * Time: 1:12 PM
  * To change this template use File | Settings | File Templates.

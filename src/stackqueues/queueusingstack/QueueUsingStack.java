@@ -11,7 +11,7 @@ import java.util.Stack;
  *     B     pop1      B      pop
  *     A     push2     C
  *  Stack 1         Stack 2
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 9/19/13
  * Time: 1:56 PM
  */

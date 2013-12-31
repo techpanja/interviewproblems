@@ -6,7 +6,7 @@ import java.util.LinkedList;
  * Find nth element from end of linked list.
  * E.g. A B C D .. 2nd from last will be C.
  * http://stackoverflow.com/questions/2598348/how-to-find-nth-element-from-the-end-of-a-singly-linked-list
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 9/19/13
  * Time: 2:06 PM
  * To change this template use File | Settings | File Templates.

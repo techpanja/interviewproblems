@@ -4,7 +4,7 @@ import numberproblems.findmissingnumber.FindMissingNumber;
 
 /**
  * Test Class
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/28/13
  * Time: 12:51 PM
  * To change this template use File | Settings | File Templates.

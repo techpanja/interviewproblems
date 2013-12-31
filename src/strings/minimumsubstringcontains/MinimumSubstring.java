@@ -5,10 +5,11 @@ import java.util.List;
 
 /**
  * Find min substring that contains all the char of target string.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 11/22/13
  * Time: 6:49 PM
  */
+//TODO incomplete solution.
 public class MinimumSubstring {
 
     private MinimumSubstring() {
@@ -29,7 +30,7 @@ public class MinimumSubstring {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
-        list.add("rahul");
+        list.add("r");
         list.add("p");
         list.add("c");
         findMinimumSubstring("nayan", "nay");
