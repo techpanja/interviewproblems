@@ -1,4 +1,4 @@
-package objects.cloning.linkedlistcloning;
+package collections.customlinkedlist;
 
 /**
  * Linked List Interface

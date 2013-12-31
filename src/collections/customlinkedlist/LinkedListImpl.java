@@ -1,4 +1,4 @@
-package objects.cloning.linkedlistcloning;
+package collections.customlinkedlist;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
