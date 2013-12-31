@@ -1,16 +1,16 @@
-package objects.cloning.test;
+package objects.cloning.linkedlistclone;
 
-import objects.cloning.linkedlistcloning.Link;
-import objects.cloning.linkedlistcloning.LinkedList;
-import objects.cloning.linkedlistcloning.LinkedListImpl;
+import collections.customlinkedlist.Link;
+import collections.customlinkedlist.LinkedList;
+import collections.customlinkedlist.LinkedListImpl;
 
 /**
- * Test class for linked list
+ * Test class for linked list cloning.
  * User: rpanjrath
  * Date: 10/29/13
  * Time: 3:51 PM
  */
-public class TestLinkedList {
+public class LinkedListCloning {
 
     private static final String HASH_CODE = " HashCode: ";
 
