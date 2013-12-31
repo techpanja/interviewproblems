@@ -21,9 +21,10 @@ Arrays
 Collections
 -----------
 1.  Find cartesian of lists.
-2.  Find nth element from end of the linked list.
-3.  Flatten a nested list.
-4.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
+2.  Implement custom linked list.
+3.  Find nth element from end of the linked list.
+4.  Flatten a nested list.
+5.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
 
 Iterator
 --------
@@ -53,7 +54,7 @@ Number-Problems
 
 Objects
 -------
-1.  Cloning example.
+1.  Cloning example (Linked List).
 2.  Implement an Immutable class.
 3.  Pass by value example.
 4.  Implement a singleton class.
