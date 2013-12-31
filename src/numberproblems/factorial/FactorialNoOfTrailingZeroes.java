@@ -6,7 +6,7 @@ package numberproblems.factorial;
  * 10 -- 2
  * 15 -- 3
  * 20 -- 4
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 12/5/13
  * Time: 4:53 PM
  * To change this template use File | Settings | File Templates.

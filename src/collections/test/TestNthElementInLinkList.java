@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 /**
  * Test class for find Nth element in link list.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 9/19/13
  * Time: 5:04 PM
  * To change this template use File | Settings | File Templates.

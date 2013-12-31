@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Find duplicate strings in list
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 9/18/13
  * Time: 8:54 PM
  * To change this template use File | Settings | File Templates.

@@ -10,7 +10,7 @@ public class Test {
 
     public static void main(String[] args) {
         String string = "ABCADEABFTR";
-//        String string = "rahulpanjrath";
+//        String string = "rpanjrath";
 //        String string = "AABC";
 //        String string = "abcdefghijklmnopqrstuvwxyz";
 //        String string = "abcdeffffffffghijklmnopq";

@@ -2,7 +2,7 @@ package numberproblems.convertstringtonumber;
 
 /**
  * Convert String to Number.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/28/13
  * Time: 1:26 PM
  * To change this template use File | Settings | File Templates.

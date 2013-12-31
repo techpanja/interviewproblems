@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 /**
  * For e.g. 2.1 and 2.2 should return 2.2. e.g. 3.2 and 3.2.1 should return 3.2.1
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/2/13
  * Time: 4:14 PM
  * To change this template use File | Settings | File Templates.

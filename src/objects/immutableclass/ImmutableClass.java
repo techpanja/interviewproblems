@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Make a class immutable.
  * http://javarevisited.blogspot.com/2013/03/how-to-create-immutable-class-object-java-example-tutorial.html
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/22/13
  * Time: 4:02 PM
  */

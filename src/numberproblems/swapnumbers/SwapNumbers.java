@@ -2,7 +2,7 @@ package numberproblems.swapnumbers;
 
 /**
  * Swap two numbers
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/28/13
  * Time: 1:08 PM
  */

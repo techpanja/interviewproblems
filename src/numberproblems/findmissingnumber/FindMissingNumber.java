@@ -2,7 +2,7 @@ package numberproblems.findmissingnumber;
 
 /**
  * Find missing number in stream of numbers 1 to N.
- * User: rahulpanjrath
+ * User: rpanjrath
  * Date: 10/28/13
  * Time: 12:10 PM
  *
