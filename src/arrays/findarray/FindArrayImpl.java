@@ -1,6 +1,9 @@
 package arrays.findarray;
 
-public class MyFindArray implements FindArray {
+/*
+* Implementation class for FindArray
+* */
+public class FindArrayImpl implements FindArray {
 
     @Override
     public int findArray(int[] array, int[] subArray) {
@@ -37,7 +40,7 @@ public class MyFindArray implements FindArray {
     }
 
     public static void main(String[] args) {
-        FindArray findArray = new MyFindArray();
+        FindArray findArray = new FindArrayImpl();
 
         System.out.println(findArray.findArray(new int[]{7, 8, 9, 11, 8 , 9 , 1,10}, new int[]{8, 9, 10}));
     }
