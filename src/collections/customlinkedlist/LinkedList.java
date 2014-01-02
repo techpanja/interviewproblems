@@ -29,9 +29,14 @@ public interface LinkedList {
     * */
     Link getHeader();
 
+    /*
+    * Returns the tail of linked list.
+    * */
+    Link getTail();
+
     void displayLinkedList();
 
-
+    boolean hasLoop();
 
 //    boolean addLink(int data, Object randomObject);
 }
