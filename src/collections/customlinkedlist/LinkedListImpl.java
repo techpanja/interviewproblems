@@ -18,6 +18,7 @@ public class LinkedListImpl implements LinkedList {
 
     private Link headerLink;
     private Link currentLink;
+    private Link tailLink;
 
     public LinkedListImpl() {
         headerLink = null;
@@ -28,6 +29,7 @@ public class LinkedListImpl implements LinkedList {
     public boolean addLink(int data) {
         Link link = new Link(data);
 //        link.setRandom(randomObject);
+        tailLink = link;
         if (headerLink == null) {
             headerLink = link;
             currentLink = headerLink;
@@ -96,6 +98,11 @@ public class LinkedListImpl implements LinkedList {
     }
 
     @Override
+    public Link getTail() {
+        return tailLink;
+    }
+
+    @Override
     public void displayLinkedList() {
         Link tempLink = headerLink;
         System.out.print("Header -> ");
@@ -104,5 +111,27 @@ public class LinkedListImpl implements LinkedList {
             tempLink = tempLink.getNext();
         }
         System.out.print("null");
+    }
+
+    @Override
+    public boolean hasLoop() {
+        Link slowLink = headerLink, fastLink = headerLink;
+        if (headerLink == null) {
+            return false;
+        }
+        while (true) {
+            slowLink = slowLink.getNext();
+            if (fastLink.getNext() != null) {
+                fastLink = fastLink.getNext().getNext();
+            } else {
+                return false;
+            }
+            if (slowLink == fastLink) {
+                return true;
+            }
+            if (slowLink == null || fastLink == null) {
+                return false;
+            }
+        }
     }
 }

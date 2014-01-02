@@ -23,7 +23,7 @@ public class Link implements Cloneable, Serializable {
         return next;
     }
 
-    protected void setNext(Link next) {
+    public void setNext(Link next) {
         this.next = next;
     }
 

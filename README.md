@@ -22,9 +22,10 @@ Collections
 -----------
 1.  Find cartesian of lists.
 2.  Implement custom linked list.
-3.  Find nth element from end of the linked list.
-4.  Flatten a nested list.
-5.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
+3.  Check if a linked list has loops.
+4.  Find nth element from end of the linked list.
+5.  Flatten a nested list.
+6.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
 
 Iterator
 --------
