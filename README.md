@@ -75,15 +75,39 @@ Stack/Queues
 
 Strings
 -------
-1.
+1.  Check string palindrome.
+2.  Find common prefix for a given list of strings.
+3.  Find duplicate strings in list of strings.
+4.  Find latest version problem.
+5.  Find Longest Common Subsequence.
+6.  Find Longest Palindrome in a string.
+7.  Print permutations of all characters in a string.
+8.  Find total number of palindromes in a String.
+9.  Find first non-repeated character.
+10. Given two (dictionary) words as Strings, determine if they are isomorphic.
+11. Given s string, Find max size of a sub-string, in which no duplicate chars present.
+12. Find min substring that contains all the char of target string.
+13. Print diamonds on basis of input size.
+14. Reverse a string.
+15. Find all dictionary words in a given string.
+16. Return true if stringA is subsequence of stringB.
 
 Threads
 -------
-1.
+1.  Implement blocking queue.
+2.  Simulate a deadlock.
 
 Trees
 -----
-1.
+1.  Check Balanced Tree.
+2.  Check if a tree is Subtree of parent tree.
+3.  Find diameter Of Tree.
+4.  Find All Paths Equal To Sum.
+5.  Find Sum Of All Nodes Except Leaf.
+6.  Left View of a Tree.
+7.  Mirror Given Tree.
+8.  Check if a tree is Mirror of another Tree.
+9.  Print Nary Tree With Levels.
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
 
