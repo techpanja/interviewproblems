@@ -25,7 +25,7 @@ public class TestCartesianOfLists {
         childList3.add("f");
         childList3.add("g");
         childList3.add("h");
-        List<List> parentList = new ArrayList<List>();
+        List<List<String>> parentList = new ArrayList<List<String>>();
         parentList.add(childList1);
         parentList.add(childList2);
         parentList.add(childList3);
