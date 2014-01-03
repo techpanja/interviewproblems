@@ -25,8 +25,8 @@ public class FindMaxSubArray {
     public static int findMaxOfSubArrayUsingMathMax(int[] inputArray) {
         int maxSoFar = 0;
         int maxEndingHere = 0;
-        for (int i = 0; i < inputArray.length; i++) {
-            maxEndingHere = Math.max(0, maxEndingHere + inputArray[i]);
+        for (int i : inputArray) {
+            maxEndingHere = Math.max(0, maxEndingHere + i);
             maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
         return maxSoFar;
