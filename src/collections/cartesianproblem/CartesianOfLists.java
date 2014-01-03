@@ -11,9 +11,9 @@ import java.util.List;
  */
 public class CartesianOfLists {
 
-    public static List<List> getCartesianOfLists(List<List> inputListOfLists) {
+    public static List<List> getCartesianOfLists(List<List<String>> inputListOfLists) {
         List<List> permutations = new ArrayList<List>();
-        for (List list : inputListOfLists) {
+        for (List<String> list : inputListOfLists) {
             permutations = generatePermutations(permutations, list);
         }
         return permutations;
