@@ -1,6 +1,5 @@
 package collections.nestedlistsum;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,24 +12,24 @@ import java.util.List;
  */
 public class NestedListSum {
 
+    private static int sum = 0;
+
+    private NestedListSum() {
+
+    }
+
     public static int findNestedListSum(List nestedList) {
         return findNestedListSum(nestedList, 1);
     }
 
-    public static int findNestedListSum(Object currentObject, int depth) {
-        if (currentObject == null)
-            return 0;
-        int sum = 0;
-        if (currentObject instanceof List) {
-            for (Object nestedList : (ArrayList<Object>) currentObject) {
-                if (nestedList.getClass() == ArrayList.class) {
-                    sum = sum + findNestedListSum(nestedList, depth + 1);
-                } else
-                    sum = sum + findNestedListSum(nestedList, depth);
+    public static int findNestedListSum(List inputList, int depth) {
+        for (int i = 0; i < inputList.size(); i++) {
+            if (inputList.get(i) instanceof List) {
+                findNestedListSum((List) inputList.get(i), depth + 1);
+            } else {
+                sum = sum + depth * (Integer) inputList.get(i);
+                System.out.println("integer => " + inputList.get(i) + " Depth => " + depth);
             }
-        } else {
-            sum += (Integer) currentObject * depth;
-            System.out.println("integer => " + currentObject + " Depth => " + depth);
         }
         return sum;
     }
