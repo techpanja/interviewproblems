@@ -18,6 +18,10 @@ public class FindNumberWithHighestFreq {
     }
 
     public static int numberWithHighestFrequency(int[] inputArray) {
+        if (inputArray.length < 1) {
+            System.out.println("Input array should contain atleast one element");
+            return -1;
+        }
         int globalCount = 0;
         int globalMaxFreqNumber = inputArray[0];
         int currentCount = 0;
