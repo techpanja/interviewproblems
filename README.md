@@ -17,6 +17,7 @@ Arrays
 6.  Write a program takes array input{1,0,2,3} and num = 3 and provides output {1,2}{0,3}{2,1}{3,0} sum equals the num.
 7.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
 8.  Print numbers with frequency.
+9.  Find Number with Highest frequency in sorted array.
 
 Collections
 -----------
