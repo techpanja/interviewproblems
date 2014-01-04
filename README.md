@@ -48,10 +48,11 @@ Maps
 
 Number-Problems
 ---------------
-1.  Convert string to number.
-2.  Find factorial of a number.
-3.  Find missing number in stream of numbers.
-4.  Swap Numbers.
+1.  Concatenate two numbers. for e.g. 123, 0456 = 1230456
+2.  Convert string to number.
+3.  Find factorial of a number.
+4.  Find missing number in stream of numbers.
+5.  Swap Numbers.
 
 Objects
 -------
