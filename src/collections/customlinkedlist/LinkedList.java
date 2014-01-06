@@ -36,7 +36,18 @@ public interface LinkedList {
 
     void displayLinkedList();
 
+    /*
+    * Check if the linked list has any loops.
+    * */
     boolean hasLoop();
 
-//    boolean addLink(int data, Object randomObject);
+    /*
+    * Reverse a linked list and return the header. O(N) time and O(1) space.
+    * */
+    Link reverseLinkedListInPlace();
+
+    /*
+    * Reverse a linked list and return the header. O(N) time and O(N) space.
+    * */
+    Link reverseLinkedListUsingStack();
 }
