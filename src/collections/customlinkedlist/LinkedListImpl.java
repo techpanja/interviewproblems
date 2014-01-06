@@ -7,6 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Stack;
 
 /**
  * Custom Linked List Implementation.
@@ -133,5 +134,37 @@ public class LinkedListImpl implements LinkedList {
                 return false;
             }
         }
+    }
+
+    @Override
+    public Link reverseLinkedListInPlace() {
+        Link current, prev = null, next;
+        current = this.getHeader();
+        tailLink = this.getHeader();
+        while (current != null) {
+            next = current.getNext();
+            current.setNext(prev);
+            prev = current;
+            current = next;
+        }
+        headerLink = prev;
+        return headerLink;
+    }
+
+    @Override
+    public Link reverseLinkedListUsingStack() {
+        Stack<Link> stack = new Stack<Link>();
+        Link temp = tailLink = headerLink;
+        while (temp != null) {
+            stack.push(temp);
+            temp = temp.getNext();
+        }
+        temp = headerLink = stack.pop();
+        while (!stack.isEmpty()) {
+            temp.setNext(stack.peek());
+            temp = stack.pop();
+        }
+        temp.setNext(null);
+        return headerLink;
     }
 }
