@@ -21,7 +21,6 @@ public class AllEvensToLeftandOddsToRight {
             System.out.print(input + " ");
         }
         System.out.println();
-        int currentPosition = 0;
         int i = 0;
         int j = inputArray.length - 1;
         while (i < j) {
@@ -34,16 +33,6 @@ public class AllEvensToLeftandOddsToRight {
             if (i < j)
                 swap(inputArray, i, j);
         }
-
-//        for (int i = 0; i < inputArray.length; i++) {
-//
-//            if (inputArray[i] % 2 == 0) {
-//                if (i != currentPosition) {
-//                    swap(inputArray, currentPosition, i);
-//                    currentPosition++;
-//                }
-//            }
-//        }
         System.out.println("After moves:");
         for (int input : inputArray) {
             System.out.print(input + " ");
