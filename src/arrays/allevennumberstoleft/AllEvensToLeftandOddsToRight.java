@@ -15,23 +15,38 @@ public class AllEvensToLeftandOddsToRight {
     }
 
     public static void moveAllEvensToLeft(int[] inputArray) {
+        System.out.println();
         System.out.println("Before moves:");
-        for (int i : inputArray) {
-            System.out.print(i + " ");
+        for (int input : inputArray) {
+            System.out.print(input + " ");
         }
         System.out.println();
         int currentPosition = 0;
-        for (int i = 0; i < inputArray.length; i++) {
-            if (inputArray[i] % 2 == 0) {
-                if (i != currentPosition) {
-                    swap(inputArray, currentPosition, i);
-                    currentPosition++;
-                }
+        int i = 0;
+        int j = inputArray.length - 1;
+        while (i < j) {
+            while (inputArray[i] % 2 == 0) {
+                i++;
             }
+            while (inputArray[j] % 2 != 0) {
+                j--;
+            }
+            if (i < j)
+                swap(inputArray, i, j);
         }
+
+//        for (int i = 0; i < inputArray.length; i++) {
+//
+//            if (inputArray[i] % 2 == 0) {
+//                if (i != currentPosition) {
+//                    swap(inputArray, currentPosition, i);
+//                    currentPosition++;
+//                }
+//            }
+//        }
         System.out.println("After moves:");
-        for (int i : inputArray) {
-            System.out.print(i + " ");
+        for (int input : inputArray) {
+            System.out.print(input + " ");
         }
     }
 
@@ -39,5 +54,14 @@ public class AllEvensToLeftandOddsToRight {
         int temp = inputArray[currentPosition];
         inputArray[currentPosition] = inputArray[i];
         inputArray[i] = temp;
+    }
+
+    public static void main(String[] args) {
+        moveAllEvensToLeft(new int[]{1, 4, 3, 4,3, 4, 1, 4, 1, 3, 5, 6});
+        moveAllEvensToLeft(new int[]{1, 4, 4, 6});
+        moveAllEvensToLeft(new int[]{4, 4, 6, 1});
+        moveAllEvensToLeft(new int[]{4, 3, 4, 6, 1});
+        moveAllEvensToLeft(new int[]{1, 3, 4});
+        moveAllEvensToLeft(new int[]{1, 4});
     }
 }
