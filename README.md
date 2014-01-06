@@ -1,7 +1,6 @@
-interviewproblems
-=================
-
 A COMPILATION OF COMMON INTERVIEW QUESTIONS AND SOLUTIONS.
+
+PLEASE FILE AN ISSUE IN CASE OF A BUG OR ADD A COMMENT.
 
 Sections:---
 ============
