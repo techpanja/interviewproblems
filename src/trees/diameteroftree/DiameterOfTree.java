@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.diameteroftree;
 
 import trees.model.SearchNode;
 

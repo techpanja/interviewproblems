@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.printnarytreewithlevels;
 
 import graphs.graph.Graph;
 import graphs.graph.UnDirectedGraph;
@@ -8,37 +8,46 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Idea is similar to PrintNaryTreeWithLevels. Use markers in queue. Node immediate after the marker is the first
- * node of the level that should be printed.
+ * Print an n-ary tree with level. For e.g.
+ * 0              foo
+ * 1       bar		       baz
+ * 2 foobar	 abc              barfoo
+ * <p/>
+ * Desired output:
+ * Level 0: foo
+ * Level 1: bar baz
+ * Level 2: foobar abc barfoo
  * User: rpanjrath
  * Date: 12/10/13
- * Time: 2:33 PM
+ * Time: 12:08 PM
  */
-public class LeftViewOfATree {
-
+public class PrintNaryTreeWithLevels {
     private static Queue<Vertex> queue = new LinkedList<Vertex>();
 
     public static void bfs(Graph graph) {
         Vertex vertex = graph.getVertexesAsArray()[0];
         vertex.setVisited(true);
-        System.out.println(vertex);
+        int counter = 0;
+        System.out.println(vertex + "level " + counter);
+        counter++;
         queue.add(vertex);
         //null acts as a pointer/marker when new level should begin.
         queue.add(null);
         while (!queue.isEmpty()) {
             Vertex currentVertex = queue.remove();
             if (currentVertex == null) {
+                counter++;
                 if (queue.isEmpty()) {
                     break;
                 }
                 currentVertex = queue.remove();
-                System.out.println(currentVertex);
                 queue.add(null);
             }
             Vertex unvisitedVertex;
             while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
                 unvisitedVertex.setVisited(true);
                 queue.add(unvisitedVertex);
+                System.out.println(unvisitedVertex + "level " + counter);
             }
         }
 
@@ -54,7 +63,7 @@ public class LeftViewOfATree {
     }
 
     public static void main(String[] args) {
-        Graph graph = new UnDirectedGraph(12);
+        Graph graph = new UnDirectedGraph(11);
         graph.addEdge("V1", "V2");
         graph.addEdge("V1", "V3");
         graph.addEdge("V1", "V6");
@@ -65,9 +74,9 @@ public class LeftViewOfATree {
         graph.addEdge("V4", "V8");
         graph.addEdge("V6", "V9");
         graph.addEdge("V9", "V11");
-        graph.addEdge("V11", "V12");
         graph.displayVertexList();
         graph.displayGraphDependency();
         bfs(graph);
     }
+
 }

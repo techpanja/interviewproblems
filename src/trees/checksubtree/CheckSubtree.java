@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.checksubtree;
 
 import trees.model.BinarySearchTree;
 import trees.model.TraverseType;
