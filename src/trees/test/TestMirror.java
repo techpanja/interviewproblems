@@ -2,7 +2,7 @@ package trees.test;
 
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
-import trees.treeproblems.MirrorTree;
+import trees.mirrortree.MirrorTree;
 
 /**
  * Check if a tree T1 is mirror of T2

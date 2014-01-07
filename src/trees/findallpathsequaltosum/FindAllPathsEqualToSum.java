@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.findallpathsequaltosum;
 
 import trees.model.SearchNode;
 

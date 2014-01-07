@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.checkbalancedtree;
 
 import trees.model.SearchNode;
 

@@ -2,7 +2,7 @@ package trees.test;
 
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
-import trees.treeproblems.CheckSubtree;
+import trees.checksubtree.CheckSubtree;
 
 /**
  * Test class for checking subtree.

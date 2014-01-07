@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.findsumofallnodesexceptleaf;
 
 import trees.model.SearchNode;
 

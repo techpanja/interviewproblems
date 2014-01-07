@@ -1,4 +1,4 @@
-package trees.treeproblems;
+package trees.mirrortree;
 
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;

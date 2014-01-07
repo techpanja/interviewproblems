@@ -3,7 +3,7 @@ package trees.test;
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
 import trees.model.SearchNode;
-import trees.treeproblems.FindAllPathsEqualToSum;
+import trees.findallpathsequaltosum.FindAllPathsEqualToSum;
 
 /**
  * Test class for @FindAllPathsEqualToSum
