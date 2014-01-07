@@ -25,7 +25,7 @@ public class TestBinarySearchTree {
         binarySearchTree.insertNode(6);
         binarySearchTree.insertNode(1);
         binarySearchTree.insertNode(0);
-        SearchNode rootNode = (SearchNode) binarySearchTree.retrieveTree();
+        SearchNode rootNode = binarySearchTree.getRootOfTree();
         List list = binarySearchTree.traverseTree(TraverseType.INORDER);
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {

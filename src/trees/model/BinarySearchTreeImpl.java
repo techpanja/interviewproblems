@@ -121,7 +121,7 @@ public class BinarySearchTreeImpl implements BinarySearchTree<Integer> {
     }
 
     @Override
-    public SearchNode retrieveTree() {
+    public SearchNode getRootOfTree() {
         return this.rootNode;
     }
 }

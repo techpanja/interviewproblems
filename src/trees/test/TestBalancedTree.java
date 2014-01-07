@@ -1,9 +1,8 @@
 package trees.test;
 
+import trees.checkbalancedtree.CheckBalancedTree;
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
-import trees.model.SearchNode;
-import trees.checkbalancedtree.CheckBalancedTree;
 
 /**
  * Test class for balanced tree.
@@ -21,6 +20,6 @@ public class TestBalancedTree {
         binarySearchTree.insertNode(4);
         binarySearchTree.insertNode(6);
         binarySearchTree.insertNode(5);
-        System.out.println(CheckBalancedTree.isTreeBalanced((SearchNode) binarySearchTree.retrieveTree()));
+        System.out.println(CheckBalancedTree.isTreeBalanced(binarySearchTree.getRootOfTree()));
     }
 }
