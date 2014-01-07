@@ -1,9 +1,8 @@
 package trees.test;
 
+import trees.findsumofallnodesexceptleaf.FindSumOfAllNodesExceptLeaf;
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
-import trees.model.SearchNode;
-import trees.findsumofallnodesexceptleaf.FindSumOfAllNodesExceptLeaf;
 
 /**
  * Test class for findSumExceptLeafNodes
@@ -20,6 +19,6 @@ public class TestFindSumExceptLeafNodes {
         binarySearchTree.insertNode(4);
         binarySearchTree.insertNode(5);
         binarySearchTree.insertNode(6);
-        System.out.println(FindSumOfAllNodesExceptLeaf.findSumExceptLeaf((SearchNode) binarySearchTree.retrieveTree()));
+        System.out.println(FindSumOfAllNodesExceptLeaf.findSumExceptLeaf(binarySearchTree.getRootOfTree()));
     }
 }

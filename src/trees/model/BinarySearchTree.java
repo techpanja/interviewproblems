@@ -19,7 +19,7 @@ public interface BinarySearchTree<T> {
 
     List traverseTree(TraverseType traverseType);
 
-    AbstractNode retrieveTree();
+    SearchNode getRootOfTree();
 
     StringBuilder traverseTreeInString(TraverseType traverseType);
 }

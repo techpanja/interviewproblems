@@ -1,9 +1,8 @@
 package trees.test;
 
+import trees.findallpathsequaltosum.FindAllPathsEqualToSum;
 import trees.model.BinarySearchTree;
 import trees.model.BinarySearchTreeImpl;
-import trees.model.SearchNode;
-import trees.findallpathsequaltosum.FindAllPathsEqualToSum;
 
 /**
  * Test class for @FindAllPathsEqualToSum
@@ -20,6 +19,6 @@ public class TestAllPaths {
         binarySearchTree.insertNode(3);
         binarySearchTree.insertNode(4);
         binarySearchTree.insertNode(7);
-        FindAllPathsEqualToSum.findAllPaths((SearchNode) binarySearchTree.retrieveTree(), 12);
+        FindAllPathsEqualToSum.findAllPaths(binarySearchTree.getRootOfTree(), 12);
     }
 }
