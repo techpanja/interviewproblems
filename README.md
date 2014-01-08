@@ -110,10 +110,11 @@ Trees
 3.  Find diameter Of Tree.
 4.  Find All Paths Equal To Sum.
 5.  Find Sum Of All Nodes Except Leaf.
-6.  Left View of a Tree.
-7.  Mirror Given Tree.
-8.  Check if a tree is Mirror of another Tree.
-9.  Print Nary Tree With Levels.
+6.  Find least common ancestor (LCA) of a binary search tree given two nodes.
+7.  Left View of a Tree.
+8.  Mirror Given Tree.
+9.  Check if a tree is Mirror of another Tree.
+10. Print Nary Tree With Levels.
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
 
