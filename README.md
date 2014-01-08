@@ -97,6 +97,7 @@ Strings
 14. Reverse a string.
 15. Find all dictionary words in a given string.
 16. Return true if stringA is subsequence of stringB.
+17. Check if a string has all unqiue characters.
 
 Threads
 -------
