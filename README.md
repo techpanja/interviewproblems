@@ -28,10 +28,11 @@ Collections
 2.  Implement custom linked list.
 3.  Check if a linked list has loops.
 4.  Find nth element from end of the linked list.
-5.  Flatten a nested list.
-6.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
-7.  Remove duplicate links from LinkedList.
-8.  Reverse a linked list. (In-place and using stack.)
+5.  Find the loop starting point in a LinkedList if it contains loop.
+6.  Flatten a nested list.
+7.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
+8.  Remove duplicate links from LinkedList.
+9.  Reverse a linked list. (In-place and using stack.)
 
 Iterator
 --------

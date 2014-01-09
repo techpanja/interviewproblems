@@ -137,6 +137,41 @@ public class LinkedListImpl implements LinkedList {
     }
 
     @Override
+    public Link findLoopStart() {
+        Link slowLink = headerLink, fastLink = headerLink;
+        if (headerLink == null) {
+            return null;
+        }
+        while (true) {
+            slowLink = slowLink.getNext();
+            if (fastLink.getNext() != null) {
+                fastLink = fastLink.getNext().getNext();
+            } else {
+                return null;
+            }
+            // slowLink and fastLink collide
+            if (slowLink == fastLink) {
+                break;
+            }
+            if (slowLink == null || fastLink == null) {
+                return null;
+            }
+        }
+        // move slowLink to headerLink
+        slowLink = headerLink;
+
+        // Now move slowLink as well as fastLink by one jump at a time.
+        // The collision point is the start of the loop.
+        while (true) {
+            if (slowLink == fastLink) {
+                return slowLink;
+            }
+            slowLink = slowLink.getNext();
+            fastLink = fastLink.getNext();
+        }
+    }
+
+    @Override
     public Link reverseLinkedListInPlace() {
         Link current, prev = null, next;
         current = this.getHeader();

@@ -42,6 +42,11 @@ public interface LinkedList {
     boolean hasLoop();
 
     /*
+    * If LinkedList has loop, return the start of the loop.
+    * */
+    Link findLoopStart();
+
+    /*
     * Reverse a linked list and return the header. O(N) time and O(1) space.
     * */
     Link reverseLinkedListInPlace();
