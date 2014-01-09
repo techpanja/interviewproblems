@@ -97,7 +97,8 @@ Strings
 14. Reverse a string.
 15. Find all dictionary words in a given string.
 16. Return true if stringA is subsequence of stringB.
-17. Check if a string has all unqiue characters.
+17. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
+18. Check if a string has all unqiue characters.
 
 Threads
 -------
