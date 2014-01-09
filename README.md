@@ -30,7 +30,8 @@ Collections
 4.  Find nth element from end of the linked list.
 5.  Flatten a nested list.
 6.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
-7.  Reverse a linked list. (In-place and using stack.)
+7.  Remove duplicate links from LinkedList.
+8.  Reverse a linked list. (In-place and using stack.)
 
 Iterator
 --------
