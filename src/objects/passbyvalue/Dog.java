@@ -21,9 +21,10 @@ public class Dog {
         this.name = name;
     }
 
-    public void foo(Dog dog) {
+    public Dog foo(Dog dog) {
         dog.setName("DEF");
         dog = new Dog("GHI");
         dog.setName("JKL");
+        return dog;
     }
 }
