@@ -43,100 +43,216 @@ Arrays
 Collections
 -----------
 1.  Find cartesian of lists.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/cartesianproblem/CartesianOfLists.java
+
 2.  Implement custom linked list.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
+
 3.  Check if a linked list has loops.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
+
 4.  Find nth element from end of the linked list.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/findNTHlastelement/FindNthLastElement.java
+
 5.  Find the loop starting point in a LinkedList if it contains loop.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
+
 6.  Flatten a nested list.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/nestedliststring/NestedList.java
+
 7.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/nestedlistsum/NestedListSum.java
+
 8.  Remove duplicate links from LinkedList.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/removeduplicatesfromlinkedlist/RemoveDuplicatesFromLinkedList.java
+
 9.  Reverse a linked list. (In-place and using stack.)
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
 
 Iterator
 --------
 1.  Implement custom iterator.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/customiterator/AnimalIterator.java
 
 Graphs
 ------
 1.  Breadth First Search
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/breadthfirstsearch/BFS.java
+
 2.  File Dependency Resolution
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/graph/AbstractGraph.java
 
 Heaps
 -----
 1.  Max Heaps
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/heaps/heap/MaxHeap.java
+
 2.  Min Heaps
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/heaps/heap/MinHeap.java
 
 Maps
 ----
 1.  Custom HashMap implementation.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/maps/customhashmap/CustomHashMapImpl.java
+
 2.  Least Recently Used (LRU) cache implementation.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/maps/lrucache/LRUCache.java
 
 Number-Problems
 ---------------
 1.  Concatenate two numbers. for e.g. 123, 0456 = 1230456
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/concatenatenumbers/ConcatenateNumbers.java
+
 2.  Convert string to number.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/convertstringtonumber/ConvertStringToNum.java
+
 3.  Find factorial of a number.
-4.  Find missing number in stream of numbers.
-5.  Swap Numbers.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/factorial/Factorial.java
+
+4.  Find no. of trailing zeroes in a factorial of number.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/factorial/FactorialNoOfTrailingZeroes.java
+
+5.  Find missing number in stream of numbers.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/findmissingnumber/FindMissingNumber.java
+
+6.  Swap Numbers.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
 
 Objects
 -------
 1.  Cloning example (Linked List).
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/objects/cloning/linkedlistclone/LinkedListCloning.java
+
 2.  Implement an Immutable class.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/objects/immutableclass/ImmutableClass.java
+
 3.  Pass by value example.
-4.  Implement a singleton class.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/objects/passbyvalue/PassByValue.java
+
+4.  Implement a singleton class. (Double-check Locking and Static)
+    Link: https://github.com/techpanja/interviewproblems/tree/master/src/objects/singleton
 
 Sorting
 -------
 1.  Bubble Sort.
+    Link:
+
 2.  Insertion Sort.
+    Link:
+
 3.  Merge Sort.
+    Link:
+
 4.  Quick Sort.
+    Link:
+
 5.  Selection Sort.
+    Link:
+
 6.  Shell Sort.
+    Link:
 
 Stack/Queues
 ------------
 1. Implement a queue using stack.
+    Link:
 
 Strings
 -------
 1.  Check string palindrome.
+    Link:
+
 2.  Find common prefix for a given list of strings.
+    Link:
+
 3.  Find duplicate strings in list of strings.
+    Link:
+
 4.  Find latest version problem.
+    Link:
+
 5.  Find Longest Common Subsequence.
+    Link:
+
 6.  Find Longest Palindrome in a string.
+    Link:
+
 7.  Print permutations of all characters in a string.
+    Link:
+
 8.  Find total number of palindromes in a String.
+    Link:
+
 9.  Find first non-repeated character.
+    Link:
+
 10. Given two (dictionary) words as Strings, determine if they are isomorphic.
+    Link:
+
 11. Given s string, Find max size of a sub-string, in which no duplicate chars present.
+    Link:
+
 12. Find min substring that contains all the char of target string.
+    Link:
+
 13. Print diamonds on basis of input size.
+    Link:
+
 14. Reverse a string.
+    Link:
+
 15. Find all dictionary words in a given string.
+    Link:
+
 16. Return true if stringA is subsequence of stringB.
+    Link:
+
 17. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
+    Link:
+
 18. Check if a string has all unqiue characters.
+    Link:
 
 Threads
 -------
 1.  Implement blocking queue.
+    Link:
+
 2.  Simulate a deadlock.
+    Link:
 
 Trees
 -----
 1.  Check Balanced Tree.
+    Link:
+
 2.  Check if a tree is Subtree of parent tree.
+    Link:
+
 3.  Find diameter Of Tree.
+    Link:
+
 4.  Find All Paths Equal To Sum.
+    Link:
+
 5.  Find Sum Of All Nodes Except Leaf.
+    Link:
+
 6.  Find least common ancestor (LCA) of a binary search tree given two nodes.
+    Link:
+
 7.  Left View of a Tree.
+    Link:
+
 8.  Mirror Given Tree.
+    Link:
+
 9.  Check if a tree is Mirror of another Tree.
+    Link:
+
 10. Print Nary Tree With Levels.
+    Link:
+
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
 
