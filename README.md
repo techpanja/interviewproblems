@@ -12,15 +12,33 @@ Arrays
 ------------
 1.  Given +ve numbers in an array.Put the even #s to the left of the array and the odd to the right side of
     the array . Don't use extra array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/allevennumberstoleft/AllEvensToLeftandOddsToRight.java
+
 2.  Given a sequence of non-negative integers find a subsequence of length 3 having maximum product with the
     numbers of the subsequence being in ascending order.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/ascsubsequencemaxproduct/SubsequenceProduct.java
+
 3.  Shift array of integers circularly given input array and shift size.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/circularshiftintarray/CircularShiftArray.java
+
 4.  Check if a sub-array exists in parent array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findarray/FindArrayImpl.java
+
 5.  Find duplicates count in sorted array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java
+
 6.  Write a program takes array input{1,0,2,3} and num = 3 and provides output {1,2}{0,3}{2,1}{3,0} sum equals the num.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findpairsequaltosum/FindPairsEqualToSum.java
+
 7.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/maxsubarray/FindMaxSubArray.java
+
 8.  Print numbers with frequency.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberfrequency/PrintNumbersWithFrequency.java
+
 9.  Find Number with Highest frequency in sorted array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
+
 
 Collections
 -----------
