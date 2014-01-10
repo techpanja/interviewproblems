@@ -10,8 +10,9 @@ package objects.passbyvalue;
 public class PassByValue {
 
     public static void main(String[] args) {
-        Dog dog = new Dog("ABC");
-        dog.foo(dog);
-        System.out.println(dog.getName());
+        Dog dog1 = new Dog("ABC");
+        Dog dog2 = dog1.foo(dog1);
+        System.out.println(dog1.hashCode() + " " + dog1.getName());
+        System.out.println(dog2.hashCode() + " " + dog2.getName());
     }
 }
