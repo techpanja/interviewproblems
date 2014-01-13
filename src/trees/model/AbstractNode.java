@@ -10,6 +10,7 @@ public abstract class AbstractNode<T> {
 
     private T leftChild;
     private T rightChild;
+    private boolean visited = false;
 
     public T getRightChild() {
         return rightChild;
@@ -29,4 +30,11 @@ public abstract class AbstractNode<T> {
 
     public abstract void displayNode();
 
+    public boolean isVisited() {
+        return visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
+    }
 }
