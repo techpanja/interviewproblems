@@ -135,27 +135,27 @@ Objects
 Sorting
 -------
 1.  Bubble Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/BubbleSort.java
 
 2.  Insertion Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/InsertionSort.java
 
 3.  Merge Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/MergeSort.java
 
 4.  Quick Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/QuickSort.java
 
 5.  Selection Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/SelectionSort.java
 
 6.  Shell Sort.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/sorting/algorithms/ShellSort.java
 
 Stack/Queues
 ------------
 1. Implement a queue using stack.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
 
 Strings
 -------
@@ -216,42 +216,45 @@ Strings
 Threads
 -------
 1.  Implement blocking queue.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/threads/blockingqueue/BlockingQueue.java
 
 2.  Simulate a deadlock.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/threads/simulatedeadlock/DeadLockOreilly.java
 
 Trees
 -----
 1.  Check Balanced Tree.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/checkbalancedtree/CheckBalancedTree.java
 
 2.  Check if a tree is Subtree of parent tree.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/checksubtree/CheckSubtree.java
 
 3.  Find diameter Of Tree.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/diameteroftree/DiameterOfTree.java
 
 4.  Find All Paths Equal To Sum.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/findallpathsequaltosum/FindAllPathsEqualToSum.java
 
 5.  Find Sum Of All Nodes Except Leaf.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/findsumofallnodesexceptleaf/FindSumOfAllNodesExceptLeaf.java
+
+6.  Check is a given tree is binary search tree. (recursive and non recursive)
     Link:
 
-6.  Find least common ancestor (LCA) of a binary search tree given two nodes.
+7.  Find least common ancestor (LCA) of a binary search tree given two nodes.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leastcommonancestorbst/FindLeastCommonAncestorBST.java
+
+8.  Left View of a Tree.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leftviewofatree/LeftViewOfATree.java
+
+9.  Mirror Given Tree.
     Link:
 
-7.  Left View of a Tree.
-    Link:
+10. Check if a tree is Mirror of another Tree.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/mirrortree/MirrorTree.java
 
-8.  Mirror Given Tree.
-    Link:
-
-9.  Check if a tree is Mirror of another Tree.
-    Link:
-
-10. Print Nary Tree With Levels.
-    Link:
+11. Print Nary Tree With Levels.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/printnarytreewithlevels/PrintNaryTreeWithLevels.java
 
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
