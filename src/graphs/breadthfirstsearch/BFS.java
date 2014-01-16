@@ -1,7 +1,7 @@
 package graphs.breadthfirstsearch;
 
+import graphs.graph.DirectedGraph;
 import graphs.graph.Graph;
-import graphs.graph.UnDirectedGraph;
 import graphs.graph.Vertex;
 
 import java.util.LinkedList;
@@ -28,15 +28,14 @@ public class BFS {
     public static void bfs(Graph graph) {
         Vertex vertex = graph.getVertexesAsArray()[0];
         vertex.setVisited(true);
-        System.out.println(vertex);
         queue.add(vertex);
         while (!queue.isEmpty()) {
             Vertex currentVertex = queue.remove();
             Vertex unvisitedVertex;
+            System.out.println(currentVertex);
             while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
                 unvisitedVertex.setVisited(true);
                 queue.add(unvisitedVertex);
-                System.out.println(unvisitedVertex);
             }
         }
 
@@ -52,7 +51,7 @@ public class BFS {
     }
 
     public static void main(String[] args) {
-        Graph graph = new UnDirectedGraph(5);
+        Graph graph = new DirectedGraph(5);
         graph.addEdge("V1", "V2");
         graph.addEdge("V1", "V3");
         graph.addEdge("V2", "V4");
