@@ -118,6 +118,10 @@ Number-Problems
 6.  Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
 
+7.  Find exponential of a number in fastest time.
+    Link:
+
+
 Objects
 -------
 1.  Cloning example (Linked List).
