@@ -26,6 +26,7 @@ public interface Graph {
 
     void displayVertexList();
 
+    Vertex getFirstVertex();
     /*
     * Adds a vertex to the graph.
     * */

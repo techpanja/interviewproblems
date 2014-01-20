@@ -79,7 +79,10 @@ Graphs
 1.  Breadth First Search
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/breadthfirstsearch/BFS.java
 
-2.  File Dependency Resolution
+2.  Depth First Search
+    Link:
+
+3.  File Dependency Resolution
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/graph/AbstractGraph.java
 
 Heaps
