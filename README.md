@@ -106,21 +106,20 @@ Number-Problems
 2.  Convert string to number.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/convertstringtonumber/ConvertStringToNum.java
 
-3.  Find factorial of a number.
+3.  Find exponential of a number in fastest time.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/exponentialnumber/ExponentialOfNumber.java
+
+4.  Find factorial of a number.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/factorial/Factorial.java
 
-4.  Find no. of trailing zeroes in a factorial of number.
+5.  Find no. of trailing zeroes in a factorial of number.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/factorial/FactorialNoOfTrailingZeroes.java
 
-5.  Find missing number in stream of numbers.
+6.  Find missing number in stream of numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/findmissingnumber/FindMissingNumber.java
 
-6.  Swap Numbers.
+7.  Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
-
-7.  Find exponential of a number in fastest time.
-    Link:
-
 
 Objects
 -------
