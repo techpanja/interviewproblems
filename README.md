@@ -118,7 +118,10 @@ Number-Problems
 6.  Find missing number in stream of numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/findmissingnumber/FindMissingNumber.java
 
-7.  Swap Numbers.
+7.  Check if a number is odd or even without using / % * + - operators.
+    Link:
+
+8.  Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
 
 Objects
