@@ -161,7 +161,7 @@ Stack/Queues
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
 
 2.  Sort a stack using only one additional stack and no other data structure.
-    Link: 
+    Link:
 
 Strings
 -------
