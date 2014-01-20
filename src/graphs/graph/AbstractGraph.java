@@ -33,6 +33,14 @@ public abstract class AbstractGraph implements Graph {
     }
 
     @Override
+    public Vertex getFirstVertex() {
+        if (getVertexesAsArray().length > 0)
+            return getVertexesAsArray()[0];
+        else
+            return null;
+    }
+
+    @Override
     public boolean addVertex(Vertex vertex) {
         if (getCurrentSize() == getMaxSize()) {
             System.out.println("Reached max size!");

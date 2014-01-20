@@ -26,22 +26,24 @@ public class BFS {
     private static Queue<Vertex> queue = new LinkedList<Vertex>();
 
     public static void bfs(Graph graph) {
-        Vertex vertex = graph.getVertexesAsArray()[0];
-        vertex.setVisited(true);
-        queue.add(vertex);
-        while (!queue.isEmpty()) {
-            Vertex currentVertex = queue.remove();
-            Vertex unvisitedVertex;
-            System.out.println(currentVertex);
-            while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
-                unvisitedVertex.setVisited(true);
-                queue.add(unvisitedVertex);
+        Vertex vertex = graph.getFirstVertex();
+        if (vertex != null) {
+            vertex.setVisited(true);
+            queue.add(vertex);
+            while (!queue.isEmpty()) {
+                Vertex currentVertex = queue.remove();
+                Vertex unvisitedVertex;
+                System.out.println(currentVertex);
+                while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
+                    unvisitedVertex.setVisited(true);
+                    queue.add(unvisitedVertex);
+                }
             }
         }
 
     }
 
-    public static Vertex getUnvisitedVertex(Vertex vertex) {
+    private static Vertex getUnvisitedVertex(Vertex vertex) {
         for (Vertex temp : vertex.getDependsOn()) {
             if (!temp.isVisited()) {
                 return temp;
@@ -51,12 +53,12 @@ public class BFS {
     }
 
     public static void main(String[] args) {
-        Graph graph = new DirectedGraph(5);
-        graph.addEdge("V1", "V2");
-        graph.addEdge("V1", "V3");
-        graph.addEdge("V2", "V4");
-        graph.addEdge("V3", "V5");
-        graph.displayVertexList();
+        Graph graph = new DirectedGraph(6);
+        graph.addEdge("v1", "v2");
+        graph.addEdge("v2", "v3");
+        graph.addEdge("v3", "v4");
+        graph.addEdge("v1", "v5");
+        graph.addEdge("v1", "v6");
         graph.displayGraphDependency();
         bfs(graph);
     }
