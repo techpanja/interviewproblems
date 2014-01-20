@@ -33,10 +33,13 @@ Arrays
 7.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/maxsubarray/FindMaxSubArray.java
 
-8.  Print numbers with frequency.
+8.  Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
+    Link:
+
+9.  Print numbers with frequency.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberfrequency/PrintNumbersWithFrequency.java
 
-9.  Find Number with Highest frequency in sorted array.
+10. Find Number with Highest frequency in sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
 
 
