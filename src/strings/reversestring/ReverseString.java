@@ -57,4 +57,59 @@ public class ReverseString {
             System.out.println("Reversed String: " + reverseString);
         }
     }
+
+    public static String reverseStringUsingRecursion(String inputString) {
+        if (inputString.length() == 0) {
+            return "";
+        }
+        return inputString.charAt(inputString.length() - 1) + reverseStringUsingRecursion(inputString.substring(0, inputString.length() - 1));
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reverseStringUsingRecursion("abc def"));
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
