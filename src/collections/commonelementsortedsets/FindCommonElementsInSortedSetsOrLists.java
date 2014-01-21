@@ -122,8 +122,22 @@ public class FindCommonElementsInSortedSetsOrLists {
         integerList2.add(14);
         integerList2.add(36);
         System.out.println("Using while");
-        List<Integer> common3 = findCommonElementsUsingWhile(integerList1, integerList2);
+        List<Integer> common3 = findCommonElementsUsingWhile(integerList2, integerList1);
         for (int i : common3) {
+            System.out.println(i);
+        }
+
+        List<Integer> integerListX = new ArrayList<>();
+        List<Integer> integerListY = new ArrayList<>();
+        integerListX.add(1);
+        integerListX.add(2);
+        integerListX.add(3);
+        integerListY.add(3);
+        integerListY.add(5);
+        integerListY.add(6);
+        System.out.println("Using while");
+        List<Integer> common4 = findCommonElementsUsingWhile(integerListX, integerListY);
+        for (int i : common4) {
             System.out.println(i);
         }
     }
