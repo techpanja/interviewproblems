@@ -48,28 +48,31 @@ Collections
 1.  Find cartesian of lists.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/cartesianproblem/CartesianOfLists.java
 
-2.  Implement custom linked list.
+2.  Find the common elements accross sorted sets/lists.
+    Link:
+
+3.  Implement custom linked list.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
 
-3.  Check if a linked list has loops.
+4.  Check if a linked list has loops.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
 
-4.  Find nth element from end of the linked list.
+5.  Find nth element from end of the linked list.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/findNTHlastelement/FindNthLastElement.java
 
-5.  Find the loop starting point in a LinkedList if it contains loop.
+6.  Find the loop starting point in a LinkedList if it contains loop.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
 
-6.  Flatten a nested list.
+7.  Flatten a nested list.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/nestedliststring/NestedList.java
 
-7.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
+8.  Given a nested list of integers, returns the sum of all integers in the list weighted by their depth.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/nestedlistsum/NestedListSum.java
 
-8.  Remove duplicate links from LinkedList.
+9.  Remove duplicate links from LinkedList.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/removeduplicatesfromlinkedlist/RemoveDuplicatesFromLinkedList.java
 
-9.  Reverse a linked list. (In-place and using stack.)
+10. Reverse a linked list. (In-place and using stack.)
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
 
 Iterator
