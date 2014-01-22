@@ -216,22 +216,26 @@ Strings
 13. Print diamonds on basis of input size.
     Link:
 
-14. Reverse a string.
+14. Identify all the 'n' (n will be input) letter-long sequences that occur more than once in any given input string.
+    OR Find repeating sequence of specified length in given DNA chromosome sequence.
     Link:
 
-15. Find all dictionary words in a given string.
+15. Reverse a string.
     Link:
 
-16. Return true if stringA is subsequence of stringB.
+16. Find all dictionary words in a given string.
     Link:
 
-17. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
+17. Return true if stringA is subsequence of stringB.
     Link:
 
-18. Check if a string has all unqiue characters.
+18. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
     Link:
 
-19. Count word occurrence in a large text file.
+19. Check if a string has all unqiue characters.
+    Link:
+
+20. Count word occurrence in a large text file.
     Link:
 
 Threads
