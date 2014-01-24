@@ -255,7 +255,7 @@ Trees
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/checksubtree/CheckSubtree.java
 
 3.  Find common ancestor of two nodes in a binary tree (not necessarily BST).
-    Link: 
+    Link:
 
 4.  Find diameter Of Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/diameteroftree/DiameterOfTree.java
