@@ -281,6 +281,9 @@ Trees
 11. Print Nary Tree With Levels.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/printnarytreewithlevels/PrintNaryTreeWithLevels.java
 
+12. Given a sorted array, create a balanced tree.
+    Link: 
+
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
 
