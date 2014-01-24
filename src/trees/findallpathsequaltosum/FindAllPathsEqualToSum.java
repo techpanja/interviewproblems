@@ -1,5 +1,7 @@
 package trees.findallpathsequaltosum;
 
+import trees.model.BinarySearchTree;
+import trees.model.BinarySearchTreeImpl;
 import trees.model.SearchNode;
 
 import java.util.ArrayList;
@@ -15,18 +17,21 @@ public class FindAllPathsEqualToSum {
 
     private static int sum = 10;
 
-    public static List<String> findAllPaths(SearchNode rootNode, int inputSum) {
+    /*
+    * Paths starting from root only.
+    * */
+    public static List<String> findAllPathsFromRoot(SearchNode rootNode, int inputSum) {
         sum = inputSum;
         SearchNode currentNode = rootNode;
-        List<String> pathsList = new ArrayList<String>();
-        findPaths(currentNode, pathsList, 0, "");
+        List<String> pathsList = new ArrayList<>();
+        findPathsFromRoot(currentNode, pathsList, 0, "");
         for (String str : pathsList) {
             System.out.println(str);
         }
         return pathsList;
     }
 
-    private static void findPaths(SearchNode currentNode, List<String> pathsList, int counter, String inputString) {
+    private static void findPathsFromRoot(SearchNode currentNode, List<String> pathsList, int counter, String inputString) {
         if (currentNode == null) {
             return;
         }
@@ -36,7 +41,16 @@ public class FindAllPathsEqualToSum {
             pathsList.add(inputString);
         }
         inputString = inputString.concat("->");
-        findPaths((SearchNode) currentNode.getLeftChild(), pathsList, counter, inputString);
-        findPaths((SearchNode) currentNode.getRightChild(), pathsList, counter, inputString);
+        findPathsFromRoot((SearchNode) currentNode.getLeftChild(), pathsList, counter, inputString);
+        findPathsFromRoot((SearchNode) currentNode.getRightChild(), pathsList, counter, inputString);
+    }
+
+    public static void main(String[] args) {
+        BinarySearchTree binarySearchTree = new BinarySearchTreeImpl();
+        binarySearchTree.insertNode(5);
+        binarySearchTree.insertNode(3);
+        binarySearchTree.insertNode(4);
+        binarySearchTree.insertNode(7);
+        FindAllPathsEqualToSum.findAllPathsFromRoot(binarySearchTree.getRootOfTree(), 12);
     }
 }
