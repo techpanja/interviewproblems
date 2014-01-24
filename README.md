@@ -254,34 +254,37 @@ Trees
 2.  Check if a tree is Subtree of parent tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/checksubtree/CheckSubtree.java
 
-3.  Find diameter Of Tree.
+3.  Find common ancestor of two nodes in a binary tree (not necessarily BST).
+    Link: 
+
+4.  Find diameter Of Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/diameteroftree/DiameterOfTree.java
 
-4.  Find All Paths Equal To Sum.
+5.  Find All Paths Equal To Sum.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/findallpathsequaltosum/FindAllPathsEqualToSum.java
 
-5.  Find Sum Of All Nodes Except Leaf.
+6.  Find Sum Of All Nodes Except Leaf.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/findsumofallnodesexceptleaf/FindSumOfAllNodesExceptLeaf.java
 
-6.  Check is a given tree is binary search tree. (recursive and non recursive)
+7.  Check is a given tree is binary search tree. (recursive and non recursive)
     Link:
 
-7.  Find least common ancestor (LCA) of a binary search tree given two nodes.
+8.  Find least common ancestor (LCA) of a binary search tree given two nodes.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leastcommonancestorbst/FindLeastCommonAncestorBST.java
 
-8.  Left View of a Tree.
+9.  Left View of a Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leftviewofatree/LeftViewOfATree.java
 
-9.  Mirror Given Tree.
+10. Mirror Given Tree.
     Link:
 
-10. Check if a tree is Mirror of another Tree.
+11. Check if a tree is Mirror of another Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/mirrortree/MirrorTree.java
 
-11. Print Nary Tree With Levels.
+12. Print Nary Tree With Levels.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/printnarytreewithlevels/PrintNaryTreeWithLevels.java
 
-12. Given a sorted array, create a balanced tree.
+13. Given a sorted array, create a balanced tree.
     Link: 
 
 
