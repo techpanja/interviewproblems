@@ -45,6 +45,10 @@ public class FindAllPathsEqualToSum {
         findPathsFromRoot((SearchNode) currentNode.getRightChild(), pathsList, counter, inputString);
     }
 
+    public static List<String> findAllPaths(SearchNode rootNode, int sum) {
+        return null;
+    }
+
     public static void main(String[] args) {
         BinarySearchTree binarySearchTree = new BinarySearchTreeImpl();
         binarySearchTree.insertNode(5);
