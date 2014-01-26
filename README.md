@@ -170,7 +170,7 @@ Sorting
 Stack/Queues
 ------------
 1.  Check if opening parenthesis pattern matches closing parenthesis pattern.
-    Link: 
+    Link:
 
 2.  Implement a queue using stack.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
