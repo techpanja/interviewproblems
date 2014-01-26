@@ -62,5 +62,6 @@ public class ParenthesisMatching {
         System.out.println(isParenthesisBalanced("[()]{}{[()()]()}"));
         System.out.println(isParenthesisBalanced("(()){[}]()(())"));
         System.out.println(isParenthesisBalanced("[(])"));
+        System.out.println(isParenthesisBalanced("{[}]"));
     }
 }
