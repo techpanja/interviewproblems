@@ -169,10 +169,13 @@ Sorting
 
 Stack/Queues
 ------------
-1.  Implement a queue using stack.
+1.  Check if opening parenthesis pattern matches closing parenthesis pattern.
+    Link: 
+
+2.  Implement a queue using stack.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
 
-2.  Sort a stack using only one additional stack and no other data structure.
+3.  Sort a stack using only one additional stack and no other data structure.
     Link:
 
 Strings
