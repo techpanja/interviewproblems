@@ -34,13 +34,16 @@ Arrays
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/maxsubarray/FindMaxSubArray.java
 
 8.  Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/mindiffsortedarrays/MinimumDifferenceSortedArrays.java
 
 9.  Print numbers with frequency.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberfrequency/PrintNumbersWithFrequency.java
 
 10. Find Number with Highest frequency in sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
+
+11. Search for a number in rotated sorted array.
+    Link:
 
 
 Collections
@@ -49,7 +52,7 @@ Collections
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/cartesianproblem/CartesianOfLists.java
 
 2.  Find the common elements accross sorted sets/lists.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/commonelementsortedsets/FindCommonElementsInSortedSetsOrLists.java
 
 3.  Implement custom linked list.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/customlinkedlist/LinkedListImpl.java
@@ -86,7 +89,7 @@ Graphs
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/breadthfirstsearch/BFS.java
 
 2.  Depth First Search
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/depthfirstsearch/DFS.java
 
 3.  File Dependency Resolution
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/graphs/graph/AbstractGraph.java
@@ -128,7 +131,7 @@ Number-Problems
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/findmissingnumber/FindMissingNumber.java
 
 7.  Check if a number is odd or even without using / % * + - operators.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/oddoreven/OddOrEven.java
 
 8.  Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
@@ -170,76 +173,76 @@ Sorting
 Stack/Queues
 ------------
 1.  Check if opening parenthesis pattern matches closing parenthesis pattern.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/parenthesismatching/ParenthesisMatching.java
 
 2.  Implement a queue using stack.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
 
 3.  Sort a stack using only one additional stack and no other data structure.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/stacksorting/StackSorting.java
 
 Strings
 -------
 1.  Check string palindrome.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/checkpalindrome/CheckPalindrome.java
 
 2.  Find common prefix for a given list of strings.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findcommonprefix/CommonPrefix.java
 
 3.  Find duplicate strings in list of strings.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findduplicates/FindDuplicates.java
 
 4.  Find latest version problem.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlatestversion/FindLatestVersion.java
 
 5.  Find Longest Common Subsequence.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlongestcommonsubsequence/LCS.java
 
 6.  Find Longest Palindrome in a string.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlongestpalindrome/FindLongestPalindrome.java
 
 7.  Print permutations of all characters in a string.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findpermutations/FindPermutations.java
 
 8.  Find total number of palindromes in a String.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findtotalpalindromes/FindTotalNoOfPalindromes.java
 
 9.  Find first non-repeated character.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/firstnonrepeatedchar/FirstNonRepeatedChar.java
 
 10. Given two (dictionary) words as Strings, determine if they are isomorphic.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/isomorphicstrings/Isomorphic.java
 
-11. Given s string, Find max size of a sub-string, in which no duplicate chars present.
-    Link:
+11. Given s string, find max size of a sub-string, in which no duplicate chars present.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/longestsubstringnorepeatedchar/LongestSubstringUnrepeatedChar.java
 
 12. Find min substring that contains all the char of target string.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/minimumsubstringcontains/MinimumSubstring.java
 
 13. Print diamonds on basis of input size.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/printdiamonds/PrintDiamonds.java
 
 14. Identify all the 'n' (n will be input) letter-long sequences that occur more than once in any given input string.
     OR Find repeating sequence of specified length in given DNA chromosome sequence.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/repeatingstringsofspecifiedlength/RepeatingStringOfSpecificLength.java
 
 15. Reverse a string.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/reversestring/ReverseString.java
 
 16. Find all dictionary words in a given string.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/segmentstringfindalldictwords/StringSegmentation.java
 
 17. Return true if stringA is subsequence of stringB.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/stringsubsequencecheck/CheckStringSubsequence.java
 
 18. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/substringcheckforrotatedstring/RotatedStringSubStringCheck.java
 
-19. Check if a string has all unqiue characters.
-    Link:
+19. Check if a string has all unique characters.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/uniquecharscheck/CheckUniqueCharacters.java
 
 20. Count word occurrence in a large text file.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/wordcountinlargefile/WordOccurencesInLargeFile.java
 
 Threads
 -------
@@ -258,7 +261,7 @@ Trees
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/checksubtree/CheckSubtree.java
 
 3.  Find common ancestor of two nodes in a binary tree (not necessarily BST).
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/commonancestorbinarytree/CommonAncestorBinaryTree.java
 
 4.  Find diameter Of Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/diameteroftree/DiameterOfTree.java
@@ -270,7 +273,7 @@ Trees
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/findsumofallnodesexceptleaf/FindSumOfAllNodesExceptLeaf.java
 
 7.  Check is a given tree is binary search tree. (recursive and non recursive)
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/isbst/CheckIfTreeIsBst.java
 
 8.  Find least common ancestor (LCA) of a binary search tree given two nodes.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leastcommonancestorbst/FindLeastCommonAncestorBST.java
@@ -288,7 +291,7 @@ Trees
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/printnarytreewithlevels/PrintNaryTreeWithLevels.java
 
 13. Given a sorted array, create a balanced tree.
-    Link: 
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/sortedarraytobalancedtree/SortedArrayToBalancedTree.java
 
 
 *** NOTE: Some problems might be in-complete. I have added TODO for such problems. ***
