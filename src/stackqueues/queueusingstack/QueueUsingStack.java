@@ -16,8 +16,9 @@ import java.util.Stack;
  * Time: 1:56 PM
  */
 public class QueueUsingStack {
-    Stack<String> stack1 = new Stack<String>();
-    Stack<String> stack2 = new Stack<String>();
+
+    private Stack<String> stack1 = new Stack<>();
+    private Stack<String> stack2 = new Stack<>();
 
     public void add(String temp) {
         stack1.push(temp);
@@ -30,5 +31,17 @@ public class QueueUsingStack {
             }
         }
         return stack2.pop();
+    }
+
+    public static void main(String[] args) {
+        QueueUsingStack queueUsingStack = new QueueUsingStack();
+        queueUsingStack.add("A");
+        queueUsingStack.add("B");
+        queueUsingStack.add("C");
+        System.out.print(queueUsingStack.remove());
+        System.out.print(queueUsingStack.remove());
+        queueUsingStack.add("D");
+        System.out.print(queueUsingStack.remove());
+        System.out.print(queueUsingStack.remove());
     }
 }
