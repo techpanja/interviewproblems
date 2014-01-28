@@ -133,7 +133,10 @@ Number-Problems
 7.  Check if a number is odd or even without using / % * + - operators.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/oddoreven/OddOrEven.java
 
-8.  Swap Numbers.
+8.  Given a number N,  find the smallest number K such that product of digits of K is equal to N. For e.g. N = 100 then K = 455
+    Link:
+
+9.  Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
 
 Objects
