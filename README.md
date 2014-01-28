@@ -42,8 +42,12 @@ Arrays
 10. Find Number with Highest frequency in sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
 
-11. Search for a number in rotated sorted array.
+11. Given an array, write a program to generate a random permutation of array elements.
+    Also asked as “shuffle a deck of cards” or “randomize a given array”.
     Link:
+
+12. Search for a number in rotated sorted array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/searchrotatedsortedarray/SearchInRotatedSortedArray.java
 
 
 Collections
