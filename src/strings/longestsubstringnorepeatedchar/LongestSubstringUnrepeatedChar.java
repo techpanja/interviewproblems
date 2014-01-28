@@ -43,4 +43,12 @@ public class LongestSubstringUnrepeatedChar {
         }
         return longestSubstringResult;
     }
+
+    public static void main(String[] args) {
+        System.out.println(LongestSubstringUnrepeatedChar.longestSubstringUnrepeatedChar("ABCADEABFTR"));
+        System.out.println(LongestSubstringUnrepeatedChar.longestSubstringUnrepeatedChar("AABC"));
+        System.out.println(LongestSubstringUnrepeatedChar.longestSubstringUnrepeatedChar("ABCADEABFTR"));
+        System.out.println(LongestSubstringUnrepeatedChar.longestSubstringUnrepeatedChar("ABCADEABFTR"));
+        System.out.println(LongestSubstringUnrepeatedChar.longestSubstringUnrepeatedChar("ABCADEABFTR"));
+    }
 }
