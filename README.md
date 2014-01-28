@@ -193,62 +193,65 @@ Strings
 1.  Check string palindrome.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/checkpalindrome/CheckPalindrome.java
 
-2.  Find common prefix for a given list of strings.
+2.  Find minimum distance between two words (order preserved) in a big string. (Kadane's Algo)
+    Link:
+
+3.  Find common prefix for a given list of strings.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findcommonprefix/CommonPrefix.java
 
-3.  Find duplicate strings in list of strings.
+4.  Find duplicate strings in list of strings.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findduplicates/FindDuplicates.java
 
-4.  Find latest version problem.
+5.  Find latest version problem.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlatestversion/FindLatestVersion.java
 
-5.  Find Longest Common Subsequence.
+6.  Find Longest Common Subsequence.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlongestcommonsubsequence/LCS.java
 
-6.  Find Longest Palindrome in a string.
+7.  Find Longest Palindrome in a string.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findlongestpalindrome/FindLongestPalindrome.java
 
-7.  Print permutations of all characters in a string.
+8.  Print permutations of all characters in a string.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findpermutations/FindPermutations.java
 
-8.  Find total number of palindromes in a String.
+9.  Find total number of palindromes in a String.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findtotalpalindromes/FindTotalNoOfPalindromes.java
 
-9.  Find first non-repeated character.
+10. Find first non-repeated character.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/firstnonrepeatedchar/FirstNonRepeatedChar.java
 
-10. Given two (dictionary) words as Strings, determine if they are isomorphic.
+11. Given two (dictionary) words as Strings, determine if they are isomorphic.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/isomorphicstrings/Isomorphic.java
 
-11. Given s string, find max size of a sub-string, in which no duplicate chars present.
+12. Given s string, find max size of a sub-string, in which no duplicate chars present. (Kadane's Algo)
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/longestsubstringnorepeatedchar/LongestSubstringUnrepeatedChar.java
 
-12. Find min substring that contains all the char of target string.
+13. Find min substring that contains all the char of target string.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/minimumsubstringcontains/MinimumSubstring.java
 
-13. Print diamonds on basis of input size.
+14. Print diamonds on basis of input size.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/printdiamonds/PrintDiamonds.java
 
-14. Identify all the 'n' (n will be input) letter-long sequences that occur more than once in any given input string.
+15. Identify all the 'n' (n will be input) letter-long sequences that occur more than once in any given input string.
     OR Find repeating sequence of specified length in given DNA chromosome sequence.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/repeatingstringsofspecifiedlength/RepeatingStringOfSpecificLength.java
 
-15. Reverse a string.
+16. Reverse a string.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/reversestring/ReverseString.java
 
-16. Find all dictionary words in a given string.
+17. Find all dictionary words in a given string.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/segmentstringfindalldictwords/StringSegmentation.java
 
-17. Return true if stringA is subsequence of stringB.
+18. Return true if stringA is subsequence of stringB.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/stringsubsequencecheck/CheckStringSubsequence.java
 
-18. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
+19. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/substringcheckforrotatedstring/RotatedStringSubStringCheck.java
 
-19. Check if a string has all unique characters.
+20. Check if a string has all unique characters.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/uniquecharscheck/CheckUniqueCharacters.java
 
-20. Count word occurrence in a large text file.
+21. Count word occurrence in a large text file.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/wordcountinlargefile/WordOccurencesInLargeFile.java
 
 Threads
