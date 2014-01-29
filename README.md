@@ -193,8 +193,8 @@ Strings
 1.  Check string palindrome.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/checkpalindrome/CheckPalindrome.java
 
-2.  Find minimum distance between two words (order preserved) in a big string. (Kadane's Algo)
-    Link:
+2.  Find minimum distance between two words (order preserved. Followup: Unpreserved order.) in a big string. (Kadane's Algo)
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/distancebetweenwords/DistanceBetweenWords.java
 
 3.  Find common prefix for a given list of strings.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/strings/findcommonprefix/CommonPrefix.java
