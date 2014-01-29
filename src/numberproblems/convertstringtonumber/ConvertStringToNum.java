@@ -14,19 +14,36 @@ public class ConvertStringToNum {
     }
 
     public static int convertStringToNum(String inputString) {
+        boolean isNegative = false;
+        if (inputString.charAt(0) == '-') {
+            isNegative = true;
+            inputString = inputString.substring(1, inputString.length());
+        }
+        if (inputString.isEmpty()) {
+            return -1;
+        }
+        int temp = 0;
         int factor = (int) Math.pow(10, inputString.length() - 1);
-        int temp1;
-        int temp2 = 0;
         for (int i = 0; i < inputString.length(); i++) {
             if (Character.isDigit(inputString.charAt(i))) {
-                temp1 = Character.getNumericValue(inputString.charAt(i)) * factor;
-                temp2 = temp1 + temp2;
+                temp = Character.getNumericValue(inputString.charAt(i)) * factor + temp;
                 factor = factor / 10;
             } else {
-                System.out.println("Please enter numbers only");
-                return 0;
+                System.out.print("Please enter numbers only. ");
+                return -1;
             }
         }
-        return temp2;
+        if (isNegative) {
+            return -temp;
+        }
+        return temp;
+    }
+
+    public static void main(String[] args) {
+            System.out.println(convertStringToNum("0"));
+            System.out.println(convertStringToNum("123"));
+            System.out.println(convertStringToNum("-34123"));
+            System.out.println(convertStringToNum("-341A23"));
+            System.out.println(convertStringToNum("AVC"));
     }
 }
