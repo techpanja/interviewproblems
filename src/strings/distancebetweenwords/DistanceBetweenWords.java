@@ -9,6 +9,8 @@ import java.util.StringTokenizer;
  * e.g 3. "you are hello" - distance is -1. Order of "hello" and "you" should be preserved.
  * e.g 4. "hello how are hello" - distance is -1 since "you" didnt occur even once.
  *
+ * Follow-up: What if the order of two input words i.e. pair1 and pair2 need not be preserved.
+ *
  * Hint: Kadane's algorithm
  *
  * Created by techpanja
@@ -31,7 +33,7 @@ public class DistanceBetweenWords {
             return 0;
         }
         StringTokenizer stringTokenizer = new StringTokenizer(inputBody, " ");
-        int distance = 0, globalDistance = inputBody.length();
+        int distance = 0, globalDistance = Integer.MAX_VALUE;
         boolean foundPair1 = false;
         String token = "";
         while (stringTokenizer.hasMoreTokens()) {
@@ -47,11 +49,48 @@ public class DistanceBetweenWords {
                 globalDistance = Math.min(distance, globalDistance);
             }
         }
-        if (globalDistance == inputBody.length()) {
+        if (globalDistance == Integer.MAX_VALUE) {
             return -1;
         } else {
             return globalDistance - 1;
         }
+    }
+
+    /*
+    * Input pair can be considered in any order. For e.g. "A B C D A" - Min distance between A and D is 1. With order
+    * preserved it would have been 3.
+    * */
+    public static int findDistanceBetweenWordsUnOrdered(String inputBody, String pair1, String pair2) {
+        if (inputBody.isEmpty() || pair1.isEmpty() || pair2.isEmpty()) {
+            return -1;
+        }
+        if (pair1.equals(pair2)) {
+            return 0;
+        }
+        StringTokenizer stringTokenizer = new StringTokenizer(inputBody, " ");
+        int distance = 0, globalDistance = Integer.MAX_VALUE;
+        String previous = "";
+        while (stringTokenizer.hasMoreTokens()) {
+            String token = stringTokenizer.nextToken();
+            if (previous.isEmpty()) {
+                if (token.equalsIgnoreCase(pair1) || token.equalsIgnoreCase(pair2)) {
+                    previous = token;
+                }
+            } else if (token.equalsIgnoreCase(pair1) || token.equalsIgnoreCase(pair2)) {
+                if (!token.equalsIgnoreCase(previous)) {
+                    globalDistance = Math.min(globalDistance, distance);
+                    previous = token;
+                }
+                distance = 0;
+            }
+            distance++;
+        }
+        // None of the pairs were found in inputBody.
+        if (previous.isEmpty() || globalDistance == Integer.MAX_VALUE) {
+            return -1;
+        }
+        return globalDistance;
+
     }
 
     public static void main(String[] args) {
@@ -59,5 +98,9 @@ public class DistanceBetweenWords {
         System.out.println(findDistanceBetweenWords("hello how are you hello", "hello", "you"));
         System.out.println(findDistanceBetweenWords("hello how are", "hello", "you"));
         System.out.println(findDistanceBetweenWords("you are how hello", "hello", "you"));
+        System.out.println(findDistanceBetweenWordsUnOrdered("you are how hello a c you hello", "hello", "you"));
+        System.out.println(findDistanceBetweenWordsUnOrdered("you are how hello a c you hello", "you", "hello"));
+        System.out.println(findDistanceBetweenWordsUnOrdered("you are how hello", "you", "hello"));
+        System.out.println(findDistanceBetweenWordsUnOrdered("you are how hello", "you", "a"));
     }
 }
