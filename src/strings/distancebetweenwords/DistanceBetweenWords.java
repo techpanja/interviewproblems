@@ -8,11 +8,11 @@ import java.util.StringTokenizer;
  * e.g 2. "hello how are hello you" - distance is 1
  * e.g 3. "you are hello" - distance is -1. Order of "hello" and "you" should be preserved.
  * e.g 4. "hello how are hello" - distance is -1 since "you" didnt occur even once.
- *
+ * <p/>
  * Follow-up: What if the order of two input words i.e. pair1 and pair2 need not be preserved.
- *
+ * <p/>
  * Hint: Kadane's algorithm
- *
+ * <p/>
  * Created by techpanja
  * Created on 1/28/14 3:12 PM.
  */
@@ -34,25 +34,20 @@ public class DistanceBetweenWords {
         }
         StringTokenizer stringTokenizer = new StringTokenizer(inputBody, " ");
         int distance = 0, globalDistance = Integer.MAX_VALUE;
-        boolean foundPair1 = false;
-        String token = "";
+        String token;
         while (stringTokenizer.hasMoreTokens()) {
             token = stringTokenizer.nextToken();
             if (token.equals(pair1)) {
                 distance = 0;
-                foundPair1 = true;
-            }
-            if (foundPair1) {
-                distance++;
-            }
-            if (token.equals(pair2) && foundPair1) {
+            } else if (token.equals(pair2)) {
                 globalDistance = Math.min(distance, globalDistance);
             }
+            distance++;
         }
-        if (globalDistance == Integer.MAX_VALUE) {
+        if (globalDistance == Integer.MAX_VALUE || globalDistance == 0) {
             return -1;
         } else {
-            return globalDistance - 1;
+            return globalDistance;
         }
     }
 
@@ -95,7 +90,7 @@ public class DistanceBetweenWords {
 
     public static void main(String[] args) {
         System.out.println(findDistanceBetweenWords("hello how are you hello you", "hello", "you"));
-        System.out.println(findDistanceBetweenWords("hello how are you hello", "hello", "you"));
+        System.out.println(findDistanceBetweenWords("hello how are you hello", "how", "you"));
         System.out.println(findDistanceBetweenWords("hello how are", "hello", "you"));
         System.out.println(findDistanceBetweenWords("you are how hello", "hello", "you"));
         System.out.println(findDistanceBetweenWordsUnOrdered("you are how hello a c you hello", "hello", "you"));
