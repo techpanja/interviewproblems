@@ -179,13 +179,16 @@ Sorting
 
 Stack/Queues
 ------------
-1.  Check if opening parenthesis pattern matches closing parenthesis pattern.
+1.  Custom Stack with push(), pop() and getMin().
+    Link:
+
+2.  Check if opening parenthesis pattern matches closing parenthesis pattern.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/parenthesismatching/ParenthesisMatching.java
 
-2.  Implement a queue using stack.
+3.  Implement a queue using stack.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/queueusingstack/QueueUsingStack.java
 
-3.  Sort a stack using only one additional stack and no other data structure.
+4.  Sort a stack using only one additional stack and no other data structure.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/stackqueues/stacksorting/StackSorting.java
 
 Strings
