@@ -2,6 +2,7 @@ package trees.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * BinarySearchTree implementation
@@ -86,6 +87,14 @@ public class BinarySearchTreeImpl implements BinarySearchTree<Integer> {
         return traversedNodesList;
     }
 
+    private void traversePreOrder(SearchNode searchNode, List traversedNodesList) {
+        if (searchNode != null) {
+            traversedNodesList.add(searchNode.getData());
+            traversePreOrder((SearchNode) searchNode.getLeftChild(), traversedNodesList);
+            traversePreOrder((SearchNode) searchNode.getRightChild(), traversedNodesList);
+        }
+    }
+
     private void traverseInOrder(SearchNode searchNode, List traversedNodesList) {
         if (searchNode != null) {
             traverseInOrder((SearchNode) searchNode.getLeftChild(), traversedNodesList);
@@ -102,11 +111,80 @@ public class BinarySearchTreeImpl implements BinarySearchTree<Integer> {
         }
     }
 
-    private void traversePreOrder(SearchNode searchNode, List traversedNodesList) {
+    @Override
+    public List traverseTreeNonRecursion(TraverseType traverseType) {
+        List traversedNodesList = new ArrayList();
+        if (traverseType.getOrderType().equalsIgnoreCase(TraverseType.INORDER.toString())) {
+            traverseInOrderNonRecursive(this.rootNode, traversedNodesList);
+        } else if (traverseType.getOrderType().equalsIgnoreCase(TraverseType.POSTORDER.toString())) {
+            traversePostOrderNonRecursive(this.rootNode, traversedNodesList);
+        } else {
+            traversePreOrderNonRecursive(this.rootNode, traversedNodesList);
+        }
+        return traversedNodesList;
+    }
+
+    private void traversePreOrderNonRecursive(SearchNode searchNode, List traversedNodesList) {
         if (searchNode != null) {
-            traversedNodesList.add(searchNode.getData());
-            traversePreOrder((SearchNode) searchNode.getLeftChild(), traversedNodesList);
-            traversePreOrder((SearchNode) searchNode.getRightChild(), traversedNodesList);
+            Stack<SearchNode> nodeStack = new Stack<>();
+            nodeStack.push(searchNode);
+            while (!nodeStack.isEmpty()) {
+                SearchNode tempNode = nodeStack.pop();
+                traversedNodesList.add(tempNode);
+                if (tempNode.getRightChild() != null) {
+                    nodeStack.push((SearchNode) tempNode.getRightChild());
+                }
+                if (tempNode.getLeftChild() != null) {
+                    nodeStack.push((SearchNode) tempNode.getLeftChild());
+                }
+            }
+        }
+    }
+
+    private void traverseInOrderNonRecursive(SearchNode searchNode, List traversedNodesList) {
+        if (searchNode != null) {
+            Stack<SearchNode> nodeStack = new Stack<>();
+            SearchNode currentNode = searchNode;
+            nodeStack.push(currentNode);
+            while (!nodeStack.isEmpty()) {
+                while (currentNode.getLeftChild() != null) {
+                    nodeStack.push((SearchNode) currentNode.getLeftChild());
+                    currentNode = (SearchNode) currentNode.getLeftChild();
+                }
+                currentNode = nodeStack.pop();
+                traversedNodesList.add(currentNode);
+                if (currentNode.getRightChild() != null) {
+                    currentNode = (SearchNode) currentNode.getRightChild();
+                    nodeStack.push(currentNode);
+                }
+            }
+        }
+    }
+
+    /*
+    * Push root to first stack.
+    * Loop while first stack is not empty {
+    *  -    Pop a node from first stack and push it to second stack
+    *  -    Push left and right children of the popped node to first stack
+    * }
+    * Print contents of second stack
+    * */
+    private void traversePostOrderNonRecursive(SearchNode searchNode, List traversedNodesList) {
+        Stack<SearchNode> nodeStack1 = new Stack<>();
+        Stack<SearchNode> nodeStack2 = new Stack<>();
+        nodeStack1.push(searchNode);
+        while (!nodeStack1.empty()) {
+            SearchNode tempNode = nodeStack1.pop();
+            nodeStack2.push(tempNode);
+            if (tempNode.getLeftChild() != null) {
+                nodeStack1.push((SearchNode) tempNode.getLeftChild());
+            }
+            if (tempNode.getRightChild() != null) {
+                nodeStack1.push((SearchNode) tempNode.getRightChild());
+            }
+        }
+        while (!nodeStack2.empty()) {
+            traversedNodesList.add(nodeStack2.pop());
         }
     }
 
