@@ -19,6 +19,8 @@ public interface BinarySearchTree<T> {
 
     List traverseTree(TraverseType traverseType);
 
+    List traverseTreeNonRecursion(TraverseType traverseType);
+
     SearchNode getRootOfTree();
 
     StringBuilder traverseTreeInString(TraverseType traverseType);
