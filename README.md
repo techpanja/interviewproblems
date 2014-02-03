@@ -30,23 +30,26 @@ Arrays
 6.  Write a program takes array input{1,0,2,3} and num = 3 and provides output {1,2}{0,3}{2,1}{3,0} sum equals the num.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findpairsequaltosum/FindPairsEqualToSum.java
 
-7.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
+7.  Given a sorted array (ascending order and distinct elements), find i such that inputArr[i] = i. Return -1 if nothing found.
+    Link:
+
+8.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/maxsubarray/FindMaxSubArray.java
 
-8.  Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
+9.  Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/mindiffsortedarrays/MinimumDifferenceSortedArrays.java
 
-9.  Print numbers with frequency.
+10. Print numbers with frequency.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberfrequency/PrintNumbersWithFrequency.java
 
-10. Find Number with Highest frequency in sorted array.
+11. Find Number with Highest frequency in sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
 
-11. Given an array, write a program to generate a random permutation of array elements.
+12. Given an array, write a program to generate a random permutation of array elements.
     Also asked as “shuffle a deck of cards” or “randomize a given array”.
     Link:
 
-12. Search for a number in rotated sorted array.
+13. Search for a number in rotated sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/searchrotatedsortedarray/SearchInRotatedSortedArray.java
 
 
