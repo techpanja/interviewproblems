@@ -24,16 +24,17 @@ public class LeftViewOfATree {
         System.out.println(vertex);
         queue.add(vertex);
         //null acts as a pointer/marker when new level should begin.
-        queue.add(null);
+        Vertex dummy = new Vertex("dummy");
+        queue.add(dummy);
         while (!queue.isEmpty()) {
             Vertex currentVertex = queue.remove();
-            if (currentVertex == null) {
+            if (currentVertex == dummy) {
                 if (queue.isEmpty()) {
                     break;
                 }
                 currentVertex = queue.remove();
                 System.out.println(currentVertex);
-                queue.add(null);
+                queue.add(dummy);
             }
             Vertex unvisitedVertex;
             while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
@@ -54,7 +55,7 @@ public class LeftViewOfATree {
     }
 
     public static void main(String[] args) {
-        Graph graph = new UnDirectedGraph(12);
+        Graph graph = new UnDirectedGraph(13);
         graph.addEdge("V1", "V2");
         graph.addEdge("V1", "V3");
         graph.addEdge("V1", "V6");
@@ -66,6 +67,7 @@ public class LeftViewOfATree {
         graph.addEdge("V6", "V9");
         graph.addEdge("V9", "V11");
         graph.addEdge("V11", "V12");
+        graph.addEdge("V12", "V13");
         graph.displayVertexList();
         graph.displayGraphDependency();
         bfs(graph);
