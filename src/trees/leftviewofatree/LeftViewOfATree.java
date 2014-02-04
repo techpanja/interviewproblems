@@ -23,7 +23,7 @@ public class LeftViewOfATree {
         vertex.setVisited(true);
         System.out.println(vertex);
         queue.add(vertex);
-        //null acts as a pointer/marker when new level should begin.
+        //dummy acts as a pointer/marker when new level should begin.
         Vertex dummy = new Vertex("dummy");
         queue.add(dummy);
         while (!queue.isEmpty()) {
