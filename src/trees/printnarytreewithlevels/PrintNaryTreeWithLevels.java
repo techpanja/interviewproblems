@@ -31,17 +31,18 @@ public class PrintNaryTreeWithLevels {
         System.out.println(vertex + "level " + counter);
         counter++;
         queue.add(vertex);
-        //null acts as a pointer/marker when new level should begin.
-        queue.add(null);
+        //dummy acts as a pointer/marker when new level should begin.
+        Vertex dummy = new Vertex("dummy");
+        queue.add(dummy);
         while (!queue.isEmpty()) {
             Vertex currentVertex = queue.remove();
-            if (currentVertex == null) {
+            if (currentVertex == dummy) {
                 counter++;
                 if (queue.isEmpty()) {
                     break;
                 }
                 currentVertex = queue.remove();
-                queue.add(null);
+                queue.add(dummy);
             }
             Vertex unvisitedVertex;
             while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
