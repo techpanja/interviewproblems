@@ -49,7 +49,7 @@ Arrays
     Also asked as “shuffle a deck of cards” or “randomize a given array”.
     Link:
 
-13. Search for a number in rotated sorted array.
+13. Search for a number in rotated sorted array (Ascending or Descending).
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/searchrotatedsortedarray/SearchInRotatedSortedArray.java
 
 
