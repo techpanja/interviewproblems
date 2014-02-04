@@ -30,6 +30,9 @@ public class SortedArrayToBalancedTree {
         return searchTree;
     }
 
+    /*
+    * Follow binary search technique to insert nodes into the tree.
+    * */
     private static void createBalancedTree(int[] inputArray, int low, int high) {
         if (high < low) {
             return;
