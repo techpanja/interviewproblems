@@ -117,6 +117,9 @@ Maps
 2.  Least Recently Used (LRU) cache implementation.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/maps/lrucache/LRUCache.java
 
+3.  Map that should be sorted on the basis of values and not keys. (Use of treemap and comparator.)
+    Link:
+
 Number-Problems
 ---------------
 1.  Concatenate two numbers. for e.g. 123, 0456 = 1230456
