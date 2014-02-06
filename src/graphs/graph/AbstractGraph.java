@@ -1,6 +1,11 @@
 package graphs.graph;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+import static graphs.breadthfirstsearch.BFS.bfs;
 
 /**
  * Abstract class depicting a graph.
@@ -117,34 +122,55 @@ public abstract class AbstractGraph implements Graph {
     @Override
     public abstract boolean addEdge(Vertex fromVertex, Vertex toVertex);
 
-    //TODO Clone vertexList else after sort we loose the original graph
-    //see line 133 where we remove the vertex from dependsOn
     @Override
-    public Queue<Vertex> topoSortGraph() {
-        int counter = getCurrentSize();
+    public List<Vertex> topoSortGraph() {
         List<Vertex> vertexList = getVertexesAsList();
-        Vertex currentVertex = null;
-        Queue<Vertex> sortedVertexQueue = new LinkedList<Vertex>();
+        return topoSortHelper(vertexList);
+    }
+
+    @Override
+    public List<Vertex> topoSortGraph(Vertex vertex) {
+        List<Vertex> vertexList = bfs(vertex);
+        return topoSortHelper(vertexList);
+    }
+
+    private List<Vertex> topoSortHelper(List<Vertex> vertexList) {
+        int counter = vertexList.size();
+        Vertex currentVertex;
+        List<Vertex> sortedVertexList = new ArrayList<>();
         while (counter > 0) {
             counter--;
             for (Vertex vertex : vertexList) {
-                if (vertex.getDependsOn().size() == 0) {
+                if (!sortedVertexList.contains(vertex)
+                        && (vertex.getDependsOn().size() == 0 || allDependenciesVisited(vertex))) {
                     currentVertex = vertex;
-                    sortedVertexQueue.add(currentVertex);
+                    sortedVertexList.add(currentVertex);
+                    currentVertex.setVisited(true);
                     break;
                 }
             }
-            if (currentVertex != null) {
-                vertexList.remove(currentVertex);
-                for (Vertex vertex : vertexList) {
-                    if (vertex.getDependsOn().contains(currentVertex)) {
-                        vertex.getDependsOn().remove(currentVertex);
-                    }
-                }
-            } else {
-                System.out.println("Graph contains cycles.");
+            if (sortedVertexList.isEmpty()) {
+                System.out.println("Cyclic Dependencies cannot be resolved.");
+                return sortedVertexList;
             }
         }
-        return sortedVertexQueue;
+        resetVisitedState(vertexList);
+        return sortedVertexList;
+    }
+
+
+    private boolean allDependenciesVisited(Vertex vertex) {
+        for (Vertex temp : vertex.getDependsOn()) {
+            if (!temp.isVisited()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private void resetVisitedState(List<Vertex> vertexList) {
+        for (Vertex vertex : vertexList) {
+            vertex.setVisited(false);
+        }
     }
 }
