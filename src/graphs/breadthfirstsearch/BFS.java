@@ -4,7 +4,9 @@ import graphs.graph.DirectedGraph;
 import graphs.graph.Graph;
 import graphs.graph.Vertex;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -23,24 +25,29 @@ import java.util.Queue;
  */
 public class BFS {
 
-    private static Queue<Vertex> queue = new LinkedList<Vertex>();
+    private static Queue<Vertex> queue = new LinkedList<>();
 
     public static void bfs(Graph graph) {
         Vertex vertex = graph.getFirstVertex();
+        bfs(vertex);
+    }
+
+    public static List<Vertex> bfs(Vertex vertex) {
+        List<Vertex> vertexList = new ArrayList<>();
         if (vertex != null) {
             vertex.setVisited(true);
             queue.add(vertex);
             while (!queue.isEmpty()) {
                 Vertex currentVertex = queue.remove();
                 Vertex unvisitedVertex;
-                System.out.println(currentVertex);
+                vertexList.add(currentVertex);
                 while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
                     unvisitedVertex.setVisited(true);
                     queue.add(unvisitedVertex);
                 }
             }
         }
-
+        return vertexList;
     }
 
     private static Vertex getUnvisitedVertex(Vertex vertex) {

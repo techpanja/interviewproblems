@@ -1,7 +1,6 @@
 package graphs.graph;
 
 import java.util.List;
-import java.util.Queue;
 
 /**
  * Graph Interface.
@@ -47,5 +46,13 @@ public interface Graph {
 
     Vertex getVertex(String vertexLabel);
 
-    Queue<Vertex> topoSortGraph();
+    /*
+    * Sorts the entire graph
+    * */
+    List<Vertex> topoSortGraph();
+
+    /*
+    * Sorts only a part of graph starting with the input vertex.
+    * */
+    List<Vertex> topoSortGraph(Vertex vertex);
 }
