@@ -21,8 +21,23 @@ public class AllPathsInAMatrix {
         if (m == 0 || n == 0) {
             return 1;
         }
-        return countOfAllPaths(m - 1, n) + countOfAllPaths(m, n - 1);
+        int x = countOfAllPaths(m - 1, n);
+        int y = countOfAllPaths(m, n - 1);
+        return x + y;
+        // int z = countOfAllPaths(m - 1, n - 1)
         // if diagonal moment allowed just add + countOfAllPaths(m - 1, n - 1)
+    }
+
+    public static int countOfAllPathsStartFromTopLeft(int m, int n) {
+        int i = 0, j = 0;
+        return countOfAllPathsFromTopLeft(m, n, i, j);
+    }
+
+    private static int countOfAllPathsFromTopLeft(int m, int n, int i, int j) {
+        if (i == m || j == n) {
+            return 1;
+        }
+        return countOfAllPathsFromTopLeft(m, n, i + 1, j) + countOfAllPathsFromTopLeft(m, n, i, j + 1);
     }
 
     public static int numberOfPaths(int m, int n) {
@@ -52,13 +67,21 @@ public class AllPathsInAMatrix {
     }
 
     public static long countOfAllPathsFormula(int m, int n) {
-        return (Factorial.findFactorial(m + n)) / (Factorial.findFactorial(m) * Factorial.findFactorial(n));
+        return (Factorial.findFactorial(m + n)) /
+                (Factorial.findFactorial(m) * Factorial.findFactorial(n));
     }
 
     public static void main(String[] args) {
         int numberOfRows = 3;
         int numberOfCols = 3;
         System.out.println(countOfAllPaths(numberOfRows - 1, numberOfCols - 1));
+        System.out.println(countOfAllPathsStartFromTopLeft(numberOfRows - 1, numberOfCols - 1));
+        System.out.println(numberOfPaths(numberOfRows, numberOfCols));
+        System.out.println(countOfAllPathsFormula(numberOfRows - 1, numberOfCols - 1));
+        numberOfRows = 4;
+        numberOfCols = 4;
+        System.out.println(countOfAllPaths(numberOfRows - 1, numberOfCols - 1));
+        System.out.println(countOfAllPathsStartFromTopLeft(numberOfRows - 1, numberOfCols - 1));
         System.out.println(numberOfPaths(numberOfRows, numberOfCols));
         System.out.println(countOfAllPathsFormula(numberOfRows - 1, numberOfCols - 1));
     }
