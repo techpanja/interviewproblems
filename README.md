@@ -24,35 +24,39 @@ Arrays
 4.  Shift array of integers circularly given input array and shift size.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/circularshiftintarray/CircularShiftArray.java
 
-5.  Check if a sub-array exists in parent array.
-    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findarray/FindArrayImpl.java
-
-6.  Find duplicates count in sorted array.
-    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java
-
-7.  Write a program takes array input{1,0,2,3} and num = 3 and provides output {1,2}{0,3}{2,1}{3,0} sum equals the num.
-    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findpairsequaltosum/FindPairsEqualToSum.java
-
-8.  Given a sorted array (ascending order and distinct elements), find i such that inputArr[i] = i. Return -1 if nothing found.
+5.  Given a boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 (or true)
+    then make all the cells of ith row and jth column as 1.
     Link:
 
-9.  Find the contiguous subarray which has the largest sum. Kadane's algorithm.
+6.  Check if a sub-array exists in parent array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findarray/FindArrayImpl.java
+
+7.  Find duplicates count in sorted array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findduplicatecountsortedarray/DuplicatesCountInSortedArray.java
+
+8.  Write a program takes array input{1,0,2,3} and num = 3 and provides output {1,2}{0,3}{2,1}{3,0} sum equals the num.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findpairsequaltosum/FindPairsEqualToSum.java
+
+9.  Given a sorted array (ascending order and distinct elements), find i such that inputArr[i] = i. Return -1 if nothing found.
+    Link:
+
+10. Find the contiguous subarray which has the largest sum. Kadane's algorithm.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/maxsubarray/FindMaxSubArray.java
 
-10. Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
+11. Given two sorted (ascending) arrays of integers, find the minimum difference between two integers in that array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/mindiffsortedarrays/MinimumDifferenceSortedArrays.java
 
-11. Print numbers with frequency.
+12. Print numbers with frequency.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberfrequency/PrintNumbersWithFrequency.java
 
-12. Find Number with Highest frequency in sorted array.
+13. Find Number with Highest frequency in sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/numberwithhighestfreq/FindNumberWithHighestFreq.java
 
-13. Given an array, write a program to generate a random permutation of array elements.
+14. Given an array, write a program to generate a random permutation of array elements.
     Also asked as “shuffle a deck of cards” or “randomize a given array”.
     Link:
 
-14. Search for a number in rotated sorted array (Ascending or Descending).
+15. Search for a number in rotated sorted array (Ascending or Descending).
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/searchrotatedsortedarray/SearchInRotatedSortedArray.java
 
 
