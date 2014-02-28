@@ -50,8 +50,8 @@ public class CommonAncestorBinaryTree {
         if (root == node) {
             return true;
         }
-        boolean isLeft = isLeftOrRightNode((SearchNode) node.getLeftChild(), node);
-        boolean isRight = isLeftOrRightNode((SearchNode) node.getRightChild(), node);
+        boolean isLeft = isLeftOrRightNode((SearchNode) root.getLeftChild(), node);
+        boolean isRight = isLeftOrRightNode((SearchNode) root.getRightChild(), node);
         return isLeft || isRight;
     }
 }
