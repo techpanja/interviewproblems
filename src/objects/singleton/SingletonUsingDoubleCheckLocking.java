@@ -15,13 +15,13 @@ package objects.singleton;
  */
 public class SingletonUsingDoubleCheckLocking {
 
-    private volatile SingletonUsingDoubleCheckLocking doubleCheckLocking;
+    private static volatile SingletonUsingDoubleCheckLocking doubleCheckLocking;
 
     private SingletonUsingDoubleCheckLocking() {
 
     }
 
-    public SingletonUsingDoubleCheckLocking getInstance() {
+    public static SingletonUsingDoubleCheckLocking getInstance() {
         if (doubleCheckLocking == null) {
             synchronized (SingletonUsingDoubleCheckLocking.class) {
                 if (doubleCheckLocking == null) {
