@@ -1,7 +1,9 @@
 package arrays.findpairsequaltosum;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Write a program takes array input{1,0,2,3} and num =3.and
@@ -17,6 +19,9 @@ public class FindPairsEqualToSum {
 
     private static int inputSum = 0;
 
+    /*
+    * O(N power of 2) solution with O(1) space.
+    * */
     public static List<String> findPairsForSum(int[] inputArray, int sum) {
         List<String> list = new ArrayList<String>();
         List<Integer> inputList = new ArrayList<Integer>();
@@ -27,65 +32,32 @@ public class FindPairsEqualToSum {
             int tempInt = sum - i;
             if (inputList.contains(tempInt)) {
                 String pair = String.valueOf(i + ", " + tempInt);
+                System.out.print(i + ":" + tempInt + " , ");
                 list.add(pair);
             }
         }
         return list;
     }
 
-//    public static List<String> findAllEqualToSum(int[] inputArray, int sum) {
-//        inputSum = sum;
-//        int currentIndex = 0;
-//        List<String> outputList = new ArrayList<String>();
-//        List<Integer> inputList = new LinkedList<Integer>();
-//        for (int i : inputArray) {
-//            inputList.add(i);
-//        }
-//        for (Integer currentInteger : inputList) {
-//            findAllEqualToSum(currentIndex, inputList, "", currentInteger, outputList);
-//
-//        }
-//        return outputList;
-//    }
-//
-//    private static void findAllEqualToSum(int currentIndex, List<Integer> inputArray, String inputString, int counter, List<String> outputList) {
-//        if (currentIndex == inputArray.size()) {
-//            return;
-//        }
-//        counter = counter + inputArray.get(currentIndex);
-//        inputString = inputString.concat(String.valueOf(inputArray.get(currentIndex))).concat(",");
-//        if (counter == inputSum) {
-//            outputList.add(inputString);
-//        }
-//        currentIndex++;
-//        findAllEqualToSum(currentIndex, inputArray, inputString, counter, outputList);
-//    }
+    /*
+    * O(N) solution using additional space (map).
+    * */
+    public static List<String> findPairsForSumUsingMap(int[] inputArray, int sum) {
+        List<String> output = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int value : inputArray) {
+            if (map.get(value) == null) {
+                map.put(sum - value, value);
+            } else {
+                output.add(String.valueOf(map.get(value) + ',' + value) + "  :  ");
+                System.out.print(String.valueOf(map.get(value)) + ":" + value + " , ");
+            }
+        }
+        return output;
+    }
 
-//    static void sum_up_recursive(ArrayList<Integer> numbers, int target, ArrayList<Integer> partial) {
-//        int s = 0;
-//        for (int x : partial) s += x;
-//        if (s == target)
-//            System.out.println("sum(" + Arrays.toString(partial.toArray()) + ")=" + target);
-//        if (s >= target)
-//            return;
-//        for (int i = 0; i < numbers.size(); i++) {
-//            ArrayList<Integer> remaining = new ArrayList<Integer>();
-//            int n = numbers.get(i);
-//            for (int j = i + 1; j < numbers.size(); j++) remaining.add(numbers.get(j));
-//            ArrayList<Integer> partial_rec = new ArrayList<Integer>(partial);
-//            partial_rec.add(n);
-//            sum_up_recursive(remaining, target, partial_rec);
-//        }
-//    }
-//
-//    static void sum_up(ArrayList<Integer> numbers, int target) {
-//        sum_up_recursive(numbers, target, new ArrayList<Integer>());
-//    }
-//
-//    public static void main(String args[]) {
-//        Integer[] numbers = {3, 9, 8, 4, 5, 7, 10, 2};
-//        int target = 15;
-//        sum_up(new ArrayList<Integer>(Arrays.asList(numbers)), target);
-//    }
-
+    public static void main(String args[]) {
+        findPairsForSumUsingMap(new int[]{2, 4, 0, 1, -2}, 2);
+        findPairsForSum(new int[]{2, 4, 0, 1, -2}, 2);
+    }
 }
