@@ -25,5 +25,6 @@ public class TestDG {
         graph.addEdge(vertex2, vertex3);
         graph.displayVertexList();
         graph.displayGraphDependency();
+        graph.topoSortGraph();
     }
 }

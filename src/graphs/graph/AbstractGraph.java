@@ -31,7 +31,7 @@ public abstract class AbstractGraph implements Graph {
 
     @Override
     public List<Vertex> getVertexesAsList() {
-        List<Vertex> vertexList = new ArrayList<Vertex>();
+        List<Vertex> vertexList = new ArrayList<>();
         vertexList.addAll(Arrays.asList(getVertexesAsArray()));
         vertexList.removeAll(Collections.singleton(null));
         return vertexList;
@@ -61,7 +61,7 @@ public abstract class AbstractGraph implements Graph {
     }
 
     protected boolean canAddVertex(Vertex vertex, List<Vertex> vList) {
-        List<Vertex> vertexList = new ArrayList<Vertex>();
+        List<Vertex> vertexList = new ArrayList<>();
         vertexList.addAll(vList);
         vertexList.removeAll(Collections.singleton(null));
         for (Vertex tempVertex : vertexList) {
