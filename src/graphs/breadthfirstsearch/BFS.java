@@ -36,6 +36,7 @@ public class BFS {
         List<Vertex> vertexList = new ArrayList<>();
         if (vertex != null) {
             vertex.setVisited(true);
+            System.out.println(vertex);
             queue.add(vertex);
             while (!queue.isEmpty()) {
                 Vertex currentVertex = queue.remove();
@@ -43,6 +44,7 @@ public class BFS {
                 vertexList.add(currentVertex);
                 while ((unvisitedVertex = getUnvisitedVertex(currentVertex)) != null) {
                     unvisitedVertex.setVisited(true);
+                    System.out.println(unvisitedVertex);
                     queue.add(unvisitedVertex);
                 }
             }
@@ -53,6 +55,7 @@ public class BFS {
     private static Vertex getUnvisitedVertex(Vertex vertex) {
         for (Vertex temp : vertex.getDependsOn()) {
             if (!temp.isVisited()) {
+                vertex.getDependsOn().remove(temp);
                 return temp;
             }
         }
