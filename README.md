@@ -26,7 +26,7 @@ Arrays
 
 5.  Given a boolean matrix mat[M][N] of size M X N, modify it such that if a matrix cell mat[i][j] is 1 (or true)
     then make all the cells of ith row and jth column as 1.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/fillmatrixwithones/FillBinaryMatrixWithOnes.java
 
 6.  Check if a sub-array exists in parent array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findarray/FindArrayImpl.java
