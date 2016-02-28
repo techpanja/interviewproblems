@@ -32,11 +32,14 @@ package arrays.findduplicatecountsortedarray;
  */
 public class DuplicatesCountInSortedArray {
 
+    private static int inputNumber;
+
     public static int findDuplicateCount(int[] inputSortedArray, int number) {
+        inputNumber = number;
         int low = 0;
         int high = inputSortedArray.length - 1;
-        int firstOccurence = findFirstOccurence(inputSortedArray, low, high, number);
-        int lastOccurence = findLastOccurence(inputSortedArray, low, high, number);
+        int firstOccurence = findFirstOccurence(inputSortedArray, low, high);
+        int lastOccurence = findLastOccurence(inputSortedArray, low, high);
         System.out.println("First Occurence at position: " + firstOccurence);
         System.out.println("Last Occurence at position: " + lastOccurence);
         if (lastOccurence == -1 && firstOccurence == -1) {
@@ -48,38 +51,38 @@ public class DuplicatesCountInSortedArray {
         return lastOccurence - firstOccurence + 1;
     }
 
-    private static int findFirstOccurence(int[] inputSortedArray, int low, int high, int number) {
+    private static int findFirstOccurence(int[] inputSortedArray, int low, int high) {
         if (high >= low) {
             int mid = (low + high) / 2;
-            if ((inputSortedArray[mid] == number && mid == 0)
-                    || (inputSortedArray[mid] == number && inputSortedArray[mid - 1] < number)) {
+            if ((inputSortedArray[mid] == inputNumber && mid == 0)
+                    || (inputSortedArray[mid] == inputNumber && inputSortedArray[mid - 1] < inputNumber)) {
                 return mid;
-            } else if (inputSortedArray[mid] >= number) {
-                return findFirstOccurence(inputSortedArray, low, mid - 1, number);
+            } else if (inputSortedArray[mid] >= inputNumber) {
+                return findFirstOccurence(inputSortedArray, low, mid - 1);
             } else {
-                return findFirstOccurence(inputSortedArray, mid + 1, high, number);
+                return findFirstOccurence(inputSortedArray, mid + 1, high);
             }
         }
         return -1;
     }
 
-    private static int findLastOccurence(int[] inputSortedArray, int low, int high, int number) {
+    private static int findLastOccurence(int[] inputSortedArray, int low, int high) {
         if (high >= low) {
             int mid = (low + high) / 2;
-            if ((inputSortedArray[mid] == number && mid == inputSortedArray.length - 1)
-                    || (inputSortedArray[mid] == number && inputSortedArray[mid + 1] > number)) {
+            if ((inputSortedArray[mid] == inputNumber && mid == inputSortedArray.length - 1)
+                    || (inputSortedArray[mid] == inputNumber && inputSortedArray[mid + 1] > inputNumber)) {
                 return mid;
-            } else if (inputSortedArray[mid] <= number) {
-                return findLastOccurence(inputSortedArray, mid + 1, high, number);
+            } else if (inputSortedArray[mid] <= inputNumber) {
+                return findLastOccurence(inputSortedArray, mid + 1, high);
             } else {
-                return findLastOccurence(inputSortedArray, low, mid - 1, number);
+                return findLastOccurence(inputSortedArray, low, mid - 1);
             }
         }
         return -1;
     }
 
     public static void main(String[] args) {
-        int count = findDuplicateCount(new int[]{2, 2, 2, 3, 4, 8, 11, 11, 12, 13, 13, 13, 13, 15}, 11);
+        int count = findDuplicateCount(new int[]{2, 2, 2, 3, 4, 8, 11, 11, 12, 13, 13, 13, 13, 15}, 13);
         System.out.println(count);
     }
 }
