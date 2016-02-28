@@ -5,6 +5,11 @@ package arrays.findarray;
 * */
 public class FindArrayImpl implements FindArray {
 
+
+    /*
+    * O(N^2) complexity.
+    * returns 1 if subArray is present in array else 0.
+    * */
     @Override
     public int findArray(int[] array, int[] subArray) {
         if (array.length < 1 || subArray.length < 1) {
@@ -20,7 +25,7 @@ public class FindArrayImpl implements FindArray {
             if (array[i] == subArrayFirstElement) {
                 if (subArray.length == 1) {
                     startIndex = i;
-                    return startIndex;
+                    return 0;
                 }
                 int j = i + 1;
                 int k = 1;  // k is to keep track of sub-array index.
@@ -31,7 +36,7 @@ public class FindArrayImpl implements FindArray {
                     }
                     if (k == subArray.length - 1) {
                         startIndex = i;
-                        return startIndex;
+                        return 1;
                     }
                     j++;
                     k++;
@@ -40,13 +45,14 @@ public class FindArrayImpl implements FindArray {
                 i++;
             }
         }
-        return startIndex;
+        return 0;
     }
+
+
 
     public static void main(String[] args) {
         FindArray findArray = new FindArrayImpl();
-
-        System.out.println(findArray.findArray(new int[]{7, 8, 9, 11, 8, 9, 1, 10}, new int[]{8, 9, 10}));
+        System.out.println(findArray.findArray(new int[]{7, 8, 9, 11, 8, 9, 1, 10}, new int[]{8, 9, 11}));
         System.out.println(findArray.findArray(new int[]{7, 8, 9, 11, 8, 9, 10}, new int[]{8, 9, 10}));
         System.out.println(findArray.findArray(new int[]{7, 8, 9, 11, 8, 9, 8, 9, 10}, new int[]{8, 9, 10}));
     }
