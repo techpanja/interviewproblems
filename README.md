@@ -58,7 +58,9 @@ Arrays
 
 15. Search for a number in rotated sorted array (Ascending or Descending).
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/searchrotatedsortedarray/SearchInRotatedSortedArray.java
-
+    
+16. Find first missing positive number in an un-sorted array.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findfirstmissingpositivenumber/FindFirstMissingPositive.java
 
 Collections
 -----------
