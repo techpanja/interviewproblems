@@ -16,7 +16,7 @@ public abstract class AbstractNode<T> {
         return rightChild;
     }
 
-    protected void setRightChild(T rightChild) {
+    public void setRightChild(T rightChild) {
         this.rightChild = rightChild;
     }
 
@@ -24,7 +24,7 @@ public abstract class AbstractNode<T> {
         return leftChild;
     }
 
-    protected void setLeftChild(T leftChild) {
+    public void setLeftChild(T leftChild) {
         this.leftChild = leftChild;
     }
 

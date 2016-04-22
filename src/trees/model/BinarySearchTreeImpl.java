@@ -98,6 +98,7 @@ public class BinarySearchTreeImpl implements BinarySearchTree<Integer> {
     private void traverseInOrder(SearchNode searchNode, List traversedNodesList) {
         if (searchNode != null) {
             traverseInOrder((SearchNode) searchNode.getLeftChild(), traversedNodesList);
+            System.out.println(searchNode.getData());
             traversedNodesList.add(searchNode.getData());
             traverseInOrder((SearchNode) searchNode.getRightChild(), traversedNodesList);
         }

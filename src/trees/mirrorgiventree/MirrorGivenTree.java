@@ -1,11 +1,27 @@
 package trees.mirrorgiventree;
 
+import trees.model.BinarySearchTree;
+import trees.model.SearchNode;
+
 /**
- *
- * User: rpanjrath
- * Date: 11/15/13
- * Time: 12:18 PM
+ * Description: Given a binary tree, mirror it.
+ * User: techpanja
  */
-//TODO
 public class MirrorGivenTree {
+
+    public static BinarySearchTree mirrorTree(BinarySearchTree tree) {
+        mirrorTreeRecursive(tree.getRootOfTree());
+        return tree;
+    }
+
+    private static void mirrorTreeRecursive(SearchNode node) {
+        if (node == null) {
+            return;
+        }
+        SearchNode temp = (SearchNode) node.getLeftChild();
+        node.setLeftChild(node.getRightChild());
+        node.setRightChild(temp);
+        mirrorTreeRecursive((SearchNode) node.getLeftChild());
+        mirrorTreeRecursive((SearchNode) node.getRightChild());
+    }
 }
