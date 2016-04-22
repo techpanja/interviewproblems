@@ -313,7 +313,7 @@ Trees
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/leftviewofatree/LeftViewOfATree.java
 
 10. Mirror Given Tree.
-    Link:
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/mirrorgiventree/MirrorGivenTree.java
 
 11. Check if a tree is Mirror of another Tree.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/trees/mirrortree/MirrorTree.java
