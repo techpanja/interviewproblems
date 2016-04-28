@@ -12,6 +12,8 @@ package numberproblems.addbinarynumbers;
  */
 public class AddBinaryNumbers {
 
+    private static int carry = 0;
+
     /**
      * Function that adds 2 binary numbers represented by String and returns it results in String.
      * Assuming only 0's and 1's are passed in number1 and number2.
@@ -24,7 +26,6 @@ public class AddBinaryNumbers {
         } else if (j == 0) {
             return number2;
         }
-        int carry = 0;
         String result = "";
         while (i >= 0 && j >= 0) {
             if (carry == 0) {
@@ -57,44 +58,38 @@ public class AddBinaryNumbers {
             result = carry + result;
             return result;
         }
-        while (i >= 0) {
-            if (carry == 0) {
-                if (number1.charAt(i) == '0') {
-                    result = 0 + result;
-                } else {
-                    result = 1 + result;
-                }
-            } else {
-                if (number1.charAt(i) == '0') {
-                    result = 1 + result;
-                    carry = 0;
-                } else {
-                    result = 0 + result;
-                    carry = 1;
-                }
-            }
-            i--;
-        }
-        while (j >= 0) {
-            if (carry == 0) {
-                if (number2.charAt(j) == '0') {
-                    result = 0 + result;
-                } else {
-                    result = 1 + result;
-                }
-            } else {
-                if (number2.charAt(j) == '0') {
-                    result = 1 + result;
-                    carry = 0;
-                } else {
-                    result = 0 + result;
-                    carry = 1;
-                }
-            }
-            j--;
+        if (i >= 0) {
+            result = processRemaining(number1, i, result);
+        } else if (j >= 0) {
+            result = processRemaining(number2, j, result);
         }
         if (carry == 1) {
             result = 1 + result;
+        }
+        return result;
+    }
+
+    /**
+     * Process any remaining elements for number1 or number2. Will happen if number1 and number2 lengths are different.
+     * */
+    private static String processRemaining(String number, int currentPosition, String result) {
+        while (currentPosition >= 0) {
+            if (carry == 0) {
+                if (number.charAt(currentPosition) == '0') {
+                    result = 0 + result;
+                } else {
+                    result = 1 + result;
+                }
+            } else {
+                if (number.charAt(currentPosition) == '0') {
+                    result = 1 + result;
+                    carry = 0;
+                } else {
+                    result = 0 + result;
+                    carry = 1;
+                }
+            }
+            currentPosition--;
         }
         return result;
     }
