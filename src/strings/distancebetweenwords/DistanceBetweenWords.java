@@ -62,26 +62,27 @@ public class DistanceBetweenWords {
         if (pair1.equals(pair2)) {
             return 0;
         }
-        StringTokenizer stringTokenizer = new StringTokenizer(inputBody, " ");
+        StringTokenizer inputBodyTokens = new StringTokenizer(inputBody, " ");
         int distance = 0, globalDistance = Integer.MAX_VALUE;
-        String previous = "";
-        while (stringTokenizer.hasMoreTokens()) {
-            String token = stringTokenizer.nextToken();
-            if (previous.isEmpty()) {
-                if (token.equalsIgnoreCase(pair1) || token.equalsIgnoreCase(pair2)) {
-                    previous = token;
+        String previousWordChecked = "";
+        while (inputBodyTokens.hasMoreTokens()) {
+            String currentWord = inputBodyTokens.nextToken();
+            // never encountered pair1 or pair2 => previousWordChecked = ""
+            if (previousWordChecked.isEmpty()) {
+                if (currentWord.equalsIgnoreCase(pair1) || currentWord.equalsIgnoreCase(pair2)) {
+                    previousWordChecked = currentWord;
                 }
-            } else if (token.equalsIgnoreCase(pair1) || token.equalsIgnoreCase(pair2)) {
-                if (!token.equalsIgnoreCase(previous)) {
+            } else if (currentWord.equalsIgnoreCase(pair1) || currentWord.equalsIgnoreCase(pair2)) {
+                if (!currentWord.equalsIgnoreCase(previousWordChecked)) {
                     globalDistance = Math.min(globalDistance, distance);
-                    previous = token;
+                    previousWordChecked = currentWord;
                 }
                 distance = 0;
             }
             distance++;
         }
         // None of the pairs were found in inputBody.
-        if (previous.isEmpty() || globalDistance == Integer.MAX_VALUE) {
+        if (previousWordChecked.isEmpty() || globalDistance == Integer.MAX_VALUE) {
             return -1;
         }
         return globalDistance;

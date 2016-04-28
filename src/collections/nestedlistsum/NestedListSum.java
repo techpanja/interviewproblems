@@ -12,23 +12,26 @@ import java.util.List;
  */
 public class NestedListSum {
 
-    private static int sum = 0;
-
     private NestedListSum() {
 
     }
 
     public static int findNestedListSum(List nestedList) {
+        if (nestedList == null || nestedList.size() == 0) {
+            System.out.println("Input cannot be empty or null");
+            return 0;
+        }
         return findNestedListSum(nestedList, 1);
     }
 
-    public static int findNestedListSum(List inputList, int depth) {
-        for (int i = 0; i < inputList.size(); i++) {
-            if (inputList.get(i) instanceof List) {
-                findNestedListSum((List) inputList.get(i), depth + 1);
+    private static int findNestedListSum(List inputList, int depth) {
+        int sum = 0;
+        for (Object anInputList : inputList) {
+            if (anInputList instanceof List) {
+                sum = sum + findNestedListSum((List) anInputList, depth + 1);
             } else {
-                sum = sum + depth * (Integer) inputList.get(i);
-                System.out.println("integer => " + inputList.get(i) + " Depth => " + depth);
+                sum = sum + depth * (Integer) anInputList;
+                System.out.println("integer => " + anInputList + " Depth => " + depth);
             }
         }
         return sum;
