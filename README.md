@@ -161,6 +161,9 @@ Number-Problems
 10. Swap Numbers.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/swapnumbers/SwapNumbers.java
 
+11. Add binary numbers.
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/numberproblems/addbinarynumbers/AddBinaryNumbers.java
+
 Objects
 -------
 1.  Cloning example (Linked List).
