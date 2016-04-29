@@ -62,6 +62,9 @@ Arrays
 16. Find first missing positive number in an un-sorted array.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/findfirstmissingpositivenumber/FindFirstMissingPositive.java
 
+17. Re-arrange zeroes, ones and twos in an array. (Dutch-Flag problem)  
+    Link: https://github.com/techpanja/interviewproblems/blob/master/src/arrays/dutchflagproblem/RearrangeZeroesOnesTwos.java
+
 Collections
 -----------
 1.  Find cartesian of lists.
