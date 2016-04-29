@@ -1,10 +1,9 @@
 PLEASE FILE AN ISSUE IN CASE OF A BUG OR ADD A COMMENT. Feel free to email me: techpanja@gmail.com with issues
 or new problems.
 
-I have a cloned repo https://github.com/techpanja/interviewproblemspublic which is open for contribution. Feel free
-to email me if you want to be a contributor.
-
 A COMPILATION OF COMMON INTERVIEW QUESTIONS AND SOLUTIONS.
+
+Note - This compilation is to give an overview of different types of interview questions. Obviously, it won't cover all of the interview questions since possibilities are endless :). Some solution may not be optimal but still would give you an idea about the question types.
 
 Sections:---
 ============
