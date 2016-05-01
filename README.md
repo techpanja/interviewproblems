@@ -69,7 +69,7 @@ Collections
 1.  Find cartesian of lists.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/cartesianproblem/CartesianOfLists.java
 
-2.  Find the common elements accross sorted sets/lists.
+2.  Find the common elements across sorted sets/lists.
     Link: https://github.com/techpanja/interviewproblems/blob/master/src/collections/commonelementsortedsets/FindCommonElementsInSortedSetsOrLists.java
 
 3.  Implement custom linked list.
