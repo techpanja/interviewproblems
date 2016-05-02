@@ -10,11 +10,13 @@ package arrays.allevennumberstoleft;
  */
 public class AllEvensToLeftandOddsToRight {
 
-    private AllEvensToLeftandOddsToRight() {
-
-    }
-
-    public static void moveAllEvensToLeft(int[] inputArray) {
+     public static void moveAllEvensToLeft(int[] inputArray) {
+        
+        //Check boundary conditions for inputArray 
+        if (inputArray == nul || inputArray.length==1){
+            return;
+        } 
+        
         System.out.println();
         System.out.println("Before moves:");
         for (int input : inputArray) {
